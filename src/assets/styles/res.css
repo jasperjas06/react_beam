@@ -1,0 +1,22 @@
+@media screen and (max-width:760px) {
+    .first img {
+        display: none;
+      }
+      .service-image-house,.service-image-bulding{
+        width: 100% !important;
+      }
+      .serviceimg-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+      }
+      .culture-content img{
+        width:100% !important;
+        padding: 20px;
+      }
+      .culture-content{
+        flex-direction: column;
+      }
+}

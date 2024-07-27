@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import { useState } from 'react';
 
 function App() {
+  const [open,setOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    //   <NavBar/>
+    // </div>
+    <>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home setOpen={setOpen} open={open} />} />
+        {/* <Route path='/About' element={<About setOpen={setOpen} open={open} />} />
+        <Route path='/solutions' element={<Solutions setOpen={setOpen} open={open} />} />
+        <Route path='/process' element={<Process setOpen={setOpen} open={open} />} />
+        <Route path='/work' element={<Work setOpen={setOpen} open={open} />} />
+        <Route path='/contact' element={<Contact setOpen={setOpen} open={open} />} /> */}
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
