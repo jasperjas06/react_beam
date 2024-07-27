@@ -19,4 +19,32 @@
       .culture-content{
         flex-direction: column;
       }
+      .client-logos{
+        grid-template-columns: auto auto;
+      }
+      .faq-header{
+        width: calc(100% - 20px);
+        margin: 10px;
+      }
+      .faq-container {
+        margin: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;  
+        /* gap: 20px; */
+      }
+      .faq-content{
+        width: 100% !important;
+      }
+      .faq-content p {
+        text-wrap: stable;
+      }
+      .faq-question-item-content{
+        width: 350px !important;
+      }
+      .contact-container{
+        display: grid;
+        grid-template-columns: auto !important;
+      }
 }
