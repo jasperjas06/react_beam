@@ -79,6 +79,9 @@
     .footerFooterWra{
         gap: 10px !important;
     }
+    .footerHeader{
+        justify-content: center !important;
+    }
 }
 
 .footerPostImgCon{

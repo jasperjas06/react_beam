@@ -277,7 +277,7 @@
 }
 .cta-content {
   /* font-family: Outfit; */
-  /* width: 480px; */
+  width: 580px;
   height: 84px;
   top: 108px;
   left: -79px;
@@ -287,7 +287,8 @@
   font-weight: 300;
   line-height: 28px;
   text-align: center;
-  color: #555555;
+  color: #ffffff;
+  /* color: #555555; */
   word-wrap: break-word;
 }
 
@@ -347,7 +348,7 @@
 }
 .faq-container {
   /* width: 100%; */
-  margin: 0 20px;
+  /* margin: 0 20px; */
   margin: 20px;
   display: flex;
   justify-content: space-between;

@@ -1,4 +1,7 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Clients = () => {
   return (
@@ -29,8 +32,18 @@ const Clients = () => {
       <div className='cta-header'>
       <p>CTA Section</p>
       </div>
-      <p className='cta-content'>Lorem ipsum dolor sit amet consectetur. A convallis non praesent ultricies vivamus eget urna aliquam.</p>
+      <p className='cta-content'>Ready to start your next construction project with BeamTech? Contact us today for a free consultation and quote. Our team is eager to bring your vision to life</p>
       <div className="flex justify-center py-6 relative z-10">
+      <div style={{display:"flex", justifyContent:"center", position:"relative", zIndex:10,}} className="flex justify-center py-6 relative z-10">
+                    <Link
+                        // to="/package"
+                        // state={{ packageDetails }}
+                        style={{borderRadius:20,textDecoration:"none"}}
+                        className="cursor-pointer px-4 py-2 text-white submit-btn rounded-full text-lg"
+                    >
+                        <span className="flex items-center">Get a free Quote <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></span>
+                    </Link>
+                </div>
                     {/* <Button variant='contained' className="cta-btn" sx={{borderRadius:"25px",backgroundColor:"#222D37"}} endIcon={<ArrowForward/>}>Contact Us</Button> */}
                 </div>
       </div>

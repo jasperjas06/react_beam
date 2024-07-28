@@ -31,8 +31,11 @@ export default function NavBar() {
             src={Logo}
           />
         </MDBNavbarBrand>
+        <MDBNavbarBrand>
 
-        <MDBNavbarToggler
+          <MDBBtn className="submit-btn" style={{borderRadius:20}}>Get Started</MDBBtn>
+      </MDBNavbarBrand>
+      <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -40,6 +43,8 @@ export default function NavBar() {
         >
           <MDBIcon icon="bars" fas />
         </MDBNavbarToggler>
+        
+          {/* <MDBIcon icon="times" fas /> */}
 
         <MDBCollapse navbar open={openBasic}>
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
@@ -50,12 +55,21 @@ export default function NavBar() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Link</MDBNavbarLink>
+              <MDBNavbarLink href="/about">Solutions</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/process">Process</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/work">Work</MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/contact">Contact</MDBNavbarLink>
             </MDBNavbarItem>
 
             
 
-            <MDBNavbarItem>
+            {/* <MDBNavbarItem>
               <MDBNavbarLink
                 disabled
                 href="#"
@@ -64,12 +78,13 @@ export default function NavBar() {
               >
                 Disabled
               </MDBNavbarLink>
-            </MDBNavbarItem>
+            </MDBNavbarItem> */}
           </MDBNavbarNav>
 
           
         </MDBCollapse>
       {/* </MDBContainer> */}
+      
     </MDBNavbar>
   );
 }
