@@ -11,11 +11,14 @@ import {
 import Logo from "../assets/images/logo.png";
 import "../nav/navbar.css"
 import { Link } from "react-router-dom";
+import SpeakwithUs from "../components/SpeakwithUs";
 
 export default function NavBar() {
   const [openBasic, setOpenBasic] = useState(false);
+  const [open,setOpen] = useState(false)
 
   return (
+    <>
     <MDBNavbar expand="lg" className="nav-bar" style={{boxShadow:"none", height:"100px"}}>
       <div className="innerCon">
       <a href="/">
@@ -71,6 +74,7 @@ export default function NavBar() {
                     <Link
                         // to="/package"
                         // state={{ packageDetails }}
+                        onClick={() => setOpen(!open)}
                         style={{borderRadius:20, textDecoration:"none",backgroundColor:"#212529"}}
                         className="cursor-pointer px-4 py-2 text-white submit-btn rounded-full text-lg"
                     >
@@ -113,5 +117,7 @@ export default function NavBar() {
       
   </MDBCollapse>
     </MDBNavbar>
+    {open && <SpeakwithUs open={open} setOpen={setOpen} />}
+    </>
   );
 }
