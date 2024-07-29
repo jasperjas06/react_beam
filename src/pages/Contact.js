@@ -1,10 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebookF, faInstagram, faLinkedinIn, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import SocialIcon from "../components/Social Icon/SocialIcon";
-import { MDBContainer } from "mdb-react-ui-kit";
 import NavBar from "../nav/NavBar";
 
 export default function Contact({open,sepratePage=true}) {

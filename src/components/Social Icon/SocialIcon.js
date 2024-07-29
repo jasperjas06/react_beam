@@ -9,7 +9,7 @@ function SocialIcon({ icon, link }) {
             // className="w-12 h-12 bg-[#dcddde] flex justify-center items-center rounded-full text-xl hover:bg-[#cb2139] hover:text-white transition-colors duration-300"
            
             href={link}
-            target='_blank'
+            target='_blank' rel="noreferrer"
         >
             <FontAwesomeIcon className='icon' icon={icon} />
         </a>

@@ -1,25 +1,16 @@
 import React, { useState } from "react";
 import {
-  MDBContainer,
   MDBNavbar,
-  MDBNavbarBrand,
   MDBNavbarToggler,
   MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBBtn,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBCollapse,
 } from "mdb-react-ui-kit";
 import Logo from "../assets/images/logo.png";
 import "../nav/navbar.css"
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
   const [openBasic, setOpenBasic] = useState(false);

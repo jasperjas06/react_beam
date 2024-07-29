@@ -24,7 +24,7 @@ const LandingPage = () => {
   const secondDivMiddle = windowHeight;
   const isSecondDivPastMiddle = scrollPosition >= secondDivMiddle;
   const firstDivPosition = isSecondDivPastMiddle ? scrollPosition - secondDivMiddle : 0;
-  const thirdDivPosition = isSecondDivPastMiddle ? secondDivMiddle : scrollPosition;
+  // const thirdDivPosition = isSecondDivPastMiddle ? secondDivMiddle : scrollPosition;
   return (
     <div className="scroll-container">
       <div className='scroll-content first'
