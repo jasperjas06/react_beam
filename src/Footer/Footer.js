@@ -73,9 +73,24 @@ const Footer = ()=>{
         </div>
                 <div className="footerFooterCon" >
                     <div className="footerFooterWra" >
+                    <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/about">
+                        <p className="footerFooterText" >About</p>
+                    </a>
+                    <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/solutions">
+                        <p className="footerFooterText" >Solutions</p>
+                    </a>
+                    <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/process">
+                        <p className="footerFooterText" >Process</p>
+                    </a>
+                    <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/work">
+                        <p className="footerFooterText" >Work</p>
+                    </a>
+                    <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/contact">
+                        <p className="footerFooterText" >Contact</p>
+                    </a>
+                        {/* <p className="footerFooterText" >paragraph</p>
                         <p className="footerFooterText" >paragraph</p>
-                        <p className="footerFooterText" >paragraph</p>
-                        <p className="footerFooterText" >paragraph</p>
+                        <p className="footerFooterText" >paragraph</p> */}
                     </div>
                 </div>
         </div>
