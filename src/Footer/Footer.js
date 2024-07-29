@@ -5,8 +5,6 @@ import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from "@f
 // import SocialIcon from "../Social Icon/SocialIcon";
 import SocialIcon from "../components/Social Icon/SocialIcon";
 import post from "../assets/images/post.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp, faPersonArrowUpFromLine } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = ()=>{
 
