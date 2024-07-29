@@ -96,12 +96,9 @@ export default function NavBar() {
         <MDBNavbarNav className="forNewNav mr-auto mb-2 mb-lg-0" >
           
           <MDBNavbarItem>
-            {/* <MDBNavbarLink active aria-current="page" href="/about">
+            <MDBNavbarLink active aria-current="page" href="/about">
               About
-            </MDBNavbarLink> */}
-            <a href="/about" style={{textDecoration:"none",color:"#212529", fontSize:"1rem", fontWeight:"600"}}>
-            About
-            </a>
+            </MDBNavbarLink>
           </MDBNavbarItem>
           <MDBNavbarItem>
             <MDBNavbarLink href="/solutions">Solutions</MDBNavbarLink>
