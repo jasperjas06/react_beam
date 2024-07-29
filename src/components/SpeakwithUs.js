@@ -1,6 +1,6 @@
 import { faArrowRight, faCalendar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { MDBBtn, MDBCard, MDBCardBody, MDBModal, MDBModalBody, MDBModalContent, MDBModalDialog, } from 'mdb-react-ui-kit'
+import { MDBBtn,  MDBModal, MDBModalBody, MDBModalContent, MDBModalDialog, } from 'mdb-react-ui-kit'
 import React from 'react'
 import "./styles.css"
 import whatsappLogo from '../assets/images/what.png'
