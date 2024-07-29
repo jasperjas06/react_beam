@@ -27,14 +27,15 @@ export default function NavBar() {
   return (
     <MDBNavbar expand="lg" className="nav-bar" style={{boxShadow:"none", height:"100px"}}>
       <div className="innerCon">
+      <a href="/">
           <img
             className="nav-logo"
             // className="h-16 md:h-24 lg:h-28"
             alt="Beamtech logo"
             src={Logo}
           />
+          </a>
           <div className="buttonCon">
-     
         </div>
           {/* <MDBIcon icon="times" fas /> */}
         {/* <MDBCollapse navbar open={openBasic}> */}
@@ -42,12 +43,12 @@ export default function NavBar() {
           <MDBNavbarNav className="forNewNav mr-auto mb-2 mb-lg-0" >
           
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" href="#">
+              <MDBNavbarLink active aria-current="page" href="/about">
                 About
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="/about">Solutions</MDBNavbarLink>
+              <MDBNavbarLink href="/solutions">Solutions</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink href="/process">Process</MDBNavbarLink>
@@ -95,17 +96,17 @@ export default function NavBar() {
           <MDBIcon icon="bars" fas />
         </MDBNavbarToggler>
         
-        </div >
+        </div>
         <MDBCollapse navbar open={openBasic}>
         <MDBNavbarNav className="forNewNav mr-auto mb-2 mb-lg-0" >
           
           <MDBNavbarItem>
-            <MDBNavbarLink active aria-current="page" href="#">
+            <MDBNavbarLink active aria-current="page" href="/about">
               About
             </MDBNavbarLink>
           </MDBNavbarItem>
           <MDBNavbarItem>
-            <MDBNavbarLink href="/about">Solutions</MDBNavbarLink>
+            <MDBNavbarLink href="/solutions">Solutions</MDBNavbarLink>
           </MDBNavbarItem>
           <MDBNavbarItem>
             <MDBNavbarLink href="/process">Process</MDBNavbarLink>

@@ -15,6 +15,7 @@ import Faqs from './Faqs'
 import Contact from './Contact'
 import Footer from '../Footer/Footer'
 const Home = ({setOpen,open}) => {
+  const [navOpen, setNavOpen] = React.useState(false);
   return (
     <div className="main-layout">
       <NavBar />
@@ -22,7 +23,7 @@ const Home = ({setOpen,open}) => {
         <LandingPage />
       </div>
       <div>
-        <Package />
+        <Package  />
       </div>
       <div>
         <Service />

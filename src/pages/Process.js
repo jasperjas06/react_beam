@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import building from "../assets/animations/building.gif"
 // import Navbar from "../components/Navbar/Navbar";
 import ProgressBar from "../components/Bar.js"
+import NavBar from "../nav/NavBar.js";
 
-export default function Process({setOpen,sepratePage=true}) {
+export default function Process({open,sepratePage=true}) {
     const [currentStep, setCurrentStep] = useState(1);
 
     useEffect(() => {
@@ -18,7 +19,7 @@ export default function Process({setOpen,sepratePage=true}) {
     }, []);
     return (
         <div>
-            {/* {sepratePage && <Navbar setOpen={setOpen} />} */}
+            {open && <NavBar  />}
             {/* className="px-14 py-10 mt-20 w-screen" */}
             <section className="px-6 py-8 mt-20 md:px-14 md:py-10 md:mt-20 " style={{width:"100%"}} >
                 {/* className="text-5xl" */}

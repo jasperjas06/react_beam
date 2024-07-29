@@ -26,6 +26,7 @@ const Service = () => {
             <li><b style={{color:"red"}}>Advanced Construction Techniques: </b> Prefabrication, modular construction, and
               sustainable practices are our specialties. High-quality materials and modern
               techniques ensure efficient, high-standard projects.
+              </li>
               <li><b style={{color:"red"}}>
                 Technology Integration: </b> We leverage 3D modelling, virtual reality walkthroughs,
                 smart building systems, and automation to enhance every aspect of construction.
@@ -40,7 +41,7 @@ const Service = () => {
               <li><b style={{color:"red"}}>Inspection and Approval: </b> Rigorous inspections at every stage ensure quality and
                 safety. We work closely with local authorities to obtain necessary approvals,
                 guaranteeing compliance with regulatory requirements</li>
-            </li>
+            
           </ul>
 
         </div>

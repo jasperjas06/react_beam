@@ -53,8 +53,8 @@ const Faqs = () => {
       <div className='faq-question'>
             {questions.map((question,index)=>{
                 return(
-                    <>
-                    <div key={question.id} className='faq-question-item' onClick={()=>showAnswer(index)}>
+                    <div key={index}>
+                    <div  className='faq-question-item' onClick={()=>showAnswer(index)}>
                         <div className='faq-question-item-header'>
                             <p>{question.q}</p>
                         </div>
@@ -63,7 +63,7 @@ const Faqs = () => {
                         </div>}
                     </div>
                     <div style={{width:"100%",height:"2px",background:"black"}}/>
-                    </>
+                    </div>
                 )
             })}
       </div>

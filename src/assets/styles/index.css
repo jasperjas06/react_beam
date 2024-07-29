@@ -489,3 +489,16 @@ background-position: center;
   right: inherit;
   position: relative;
 }
+.About {
+  margin-top: 20px;
+  margin: 40px;
+  position: absolute;
+  top: 100px;
+}
+.about-image {
+  width: 463px;
+  height: 226px;
+  position: fixed;
+  top: 70%;
+  left: 30%;
+}

@@ -20,22 +20,22 @@ const Cultuer = () => {
             <br/>
             <br/>
             <div className="timeline">
-            <div class="lines">
+            <div className="lines">
             <div style={{display:'flex', justifyContent:'center', alignItems:"center"}}>
-            <div class="dot" style={{backgroundColor:"#CB2139"}}></div>
+            <div className="dot" style={{backgroundColor:"#CB2139"}}></div>
             <p style={{color:"#CB2139"}}>The Attitude Of Gratitude</p>
             </div>
-            <div class="line" style={{background:"#CB2139"}}></div>
+            <div className="line" style={{background:"#CB2139"}}></div>
             <div style={{display:'flex', justifyContent:'center', alignItems:"center"}}>
-            <div class="dot"></div>
+            <div className="dot"></div>
             <p>The Attitude Of Gratitude</p>
             </div>
-            <div class="line"></div>
+            <div className="line"></div>
             <div style={{display:'flex', justifyContent:'center', alignItems:"center"}}>
-            <div class="dot"></div>
+            <div className="dot"></div>
             <p>The Attitude Of Gratitude</p>
             </div>
-            <div class="line"></div>
+            <div className="line"></div>
           </div>
               {/* <Timeline>
                 <TimelineItem sx={{ color: "#CB2139" }}>

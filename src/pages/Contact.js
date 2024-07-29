@@ -5,9 +5,9 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import SocialIcon from "../components/Social Icon/SocialIcon";
 import { MDBContainer } from "mdb-react-ui-kit";
+import NavBar from "../nav/NavBar";
 
-export default function Contact({setOpen,sepratePage=true}) {
-
+export default function Contact({open,sepratePage=true}) {
     const [formData, setFormData] = useState({
         fullName: '',
         email: '',
@@ -77,6 +77,9 @@ export default function Contact({setOpen,sepratePage=true}) {
         <>
             {/* {sepratePage && <Navbar setOpen={setOpen} />} */}
             {/* className="mt-24 pt-20 px-12 grid grid-cols-3 gap-8" */}
+            {
+                open && <NavBar/>
+            }
             <div style={{margin:'40px'}}>
             <div style={{display:"grid", gridTemplateColumns:"auto auto ", padding:"20px",}} className="contact-container">
                 <div className="text-center md:text-left md:col-span-1">
