@@ -21,7 +21,7 @@ export default function Process({open,sepratePage=true}) {
         <div>
             {open && <NavBar  />}
             {/* className="px-14 py-10 mt-20 w-screen" */}
-            <section className="px-6 py-8 mt-20 md:px-14 md:py-10 md:mt-20 " style={{width:"100%"}} >
+            <section className="px-6 py-8 mt-20 md:px-14 md:py-10 md:mt-20 " style={{width:"100%", margin:"20px"}} >
                 {/* className="text-5xl" */}
                 <div className="text-3xl md:text-5xl">
                     {/* className="py-3 font-bold" */}
