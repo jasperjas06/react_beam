@@ -21,9 +21,9 @@ const Work = () => {
                 <div className="pt-14 px-5 md:px-14 text-black" >
                     {/* className="text-6xl font-bold"font-size: 60px;
   font-weight: 700; */}
-                    <h1 className="project-title text-4xl md:text-5xl lg:text-6xl font-bold" style={{color:"#DCDDDE", fontSize:"60px",fontWeight:"700", marginTop:"20px"}}>Our Projects</h1>
+                    <h1 className="project-title" style={{color:"#DCDDDE", fontSize:"60px",fontWeight:"700", marginTop:"20px"}}>Our Projects</h1>
                     {/* className="pt-10 max-w-lg text-2xl" */}
-                    <p className="project-line pt-6 md:pt-10 max-w-full md:max-w-lg text-xl md:text-xl lg:text-2xl" style={{color:"#DCDDDE", fontWeight:300, fontSize:"24px", lineHeight:"28px"}}>
+                    <p className="project-line " style={{color:"#DCDDDE", fontWeight:300, fontSize:"24px", lineHeight:"28px"}}>
                         From a couple to a large Indian family, we have houses built with emotions for everyone.
                     </p>
                 </div>
