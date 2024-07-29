@@ -103,7 +103,7 @@
         height: 340px;
         padding: 55px 48px 0px 42px;
         gap: 0px;
-        opacity: 0px;
+        /* opacity: 0px; */
       }
       .counter-box {
         display: flex;
@@ -116,7 +116,7 @@
         height: 100px;
         left: 49px;
         gap: 0px;
-        opacity: 0px;
+        /* opacity: 0px; */
         border-radius: 50%;
         border: 5px solid rgba(194, 209, 217, 1);
         justify-content: center;
@@ -128,7 +128,7 @@
         padding-top: 20px;
         left: 51px;
         gap: 0px;
-        opacity: 0px;
+        /* opacity: 0px; */
         font-family: Source Sans Pro;
         font-size: 30px;
         font-weight: 700;

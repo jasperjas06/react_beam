@@ -5,21 +5,23 @@ import React from 'react'
 import "./styles.css"
 import whatsappLogo from '../assets/images/what.png'
 import { Link } from 'react-router-dom'
-const SpeakwithUs = (open,setOpen) => {
-    const toggleClose = () => {
-        setOpen(false)
-    }
+const SpeakwithUs = ({open,setOpen}) => {
+    // const toggleClose = () => {
+    //     setOpen(false)
+    // }
   return (
-    <MDBModal open={open} onClose={toggleClose} tabIndex='-1'>
+    <MDBModal open={open} onClose={setOpen} tabIndex='-1'>
         <MDBModalDialog size="xl">
           <MDBModalContent>
-              <MDBBtn style={{position:"relative", right:0}} className='btn-close' color='none' onClick={toggleClose}></MDBBtn>
+          <div>
+              <MDBBtn style={{margin:"10px", float:"right"}} className='btn-close' color='none' onClick={setOpen}></MDBBtn>
+          </div>
             <MDBModalBody>
                 {/* <h4 style={{color:"#070707"}}>You bring an idea, we <span style={{color:"red"}}>make it happen!</span></h4> */}
                 <div>
-                    <MDBCard>
-                        <MDBCardBody>
-                        <div className='swuBody' >
+                    {/* <MDBCard>
+                        <MDBCardBody> */}
+                        <div className='swuBody'style={{margin:"20px"}} >
             <h3 className='swuText'>You bring an idea, we <span style={{color:"#CB2139"}}>make it happen!</span> </h3>
             <div className='swuComCon'>
               <div className='swuComWra'>
@@ -72,8 +74,8 @@ const SpeakwithUs = (open,setOpen) => {
               </div>
             </div>
           </div>
-                        </MDBCardBody>
-                    </MDBCard>
+                        {/* </MDBCardBody>
+                    </MDBCard> */}
                 </div>
             </MDBModalBody>
           </MDBModalContent>

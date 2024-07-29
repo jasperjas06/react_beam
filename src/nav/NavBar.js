@@ -117,7 +117,7 @@ export default function NavBar() {
       
   </MDBCollapse>
     </MDBNavbar>
-    {open && <SpeakwithUs open={open} setOpen={setOpen} />}
+    {open && <SpeakwithUs open={open} setOpen={()=>setOpen(false)} />}
     </>
   );
 }
