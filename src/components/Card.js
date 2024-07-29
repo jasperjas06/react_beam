@@ -24,10 +24,10 @@ export default function Card({ hoverText, packageDetails }) {
                     <Link
                         // to="/package"
                         state={{ packageDetails }}
-                        style={{borderRadius:20, tectdecoration:"none"}}
+                        style={{borderRadius:20,textDecoration:"none"}}
                         className="cursor-pointer px-4 py-2 text-white submit-btn rounded-full text-lg"
                     >
-                        <span className="flex items-center">Learn More <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></span>
+                        <span className="flex items-center">Learn more <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></span>
                     </Link>
                 </div>
             </div>
