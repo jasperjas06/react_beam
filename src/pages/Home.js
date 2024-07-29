@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from '../nav/NavBar'
+import NavBar from '../nav/NewNav/Nav'
+// import NavBar from '../nav/NavBar'
 import LandingPage from './LandingPage'
 import "../assets/styles/index.css"
 import "../assets/styles/res.css"
