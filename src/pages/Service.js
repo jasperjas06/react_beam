@@ -11,11 +11,17 @@ const Service = () => {
       <div className='service-container'>
       <div className='service-mainbox'>
         <div className='service-content'>
-          {/* <Typography sx={{ fontWeight: 300, fontSize: "24px", lineHeight: "28px", color: "#222D37", wordWrap: "break-word" }}>Flawless construction powered by deep expertise.</Typography> */}
+        <div className='service-grid'>
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" data-aos-offset="30" data-aos-duration="1500" className='service-image-house'>
+            <div className='service-rectangle' />
+            <button>Houses</button>
+          </div>
+          <div>
           <ul style={{listStyle:"disc",padding :"20px",fontSize: "18px", lineHeight: "28px", color: "#222D37", wordWrap: "break-word",
             fontFamily:"outfit"
           }}>
-            <li><b style={{color:"red"}}>Planning and Design: </b> Our team of expert architects and designers harnesses the
+          <li><b style={{color:"red"}}>Planning and Design: </b> Our team of expert architects and designers harnesses the
               latest software and technology to create detailed plans and blueprints. We ensure
               compliance with local building codes, providing a solid foundation for your project.</li>
             <li><b style={{color:"red"}}>
@@ -27,6 +33,16 @@ const Service = () => {
               sustainable practices are our specialties. High-quality materials and modern
               techniques ensure efficient, high-standard projects.
               </li>
+
+          </ul>
+          </div>
+
+        </div>
+        <div className='service-grid'>
+       <ul style={{listStyle:"disc",padding :"20px",fontSize: "18px", lineHeight: "28px", color: "#222D37", wordWrap: "break-word",
+            fontFamily:"outfit"
+          }}>
+            
               <li><b style={{color:"red"}}>
                 Technology Integration: </b> We leverage 3D modelling, virtual reality walkthroughs,
                 smart building systems, and automation to enhance every aspect of construction.
@@ -43,14 +59,9 @@ const Service = () => {
                 guaranteeing compliance with regulatory requirements</li>
             
           </ul>
-
-        </div>
-        <div className='serviceimg-container'>
-          <div data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom" data-aos-offset="30" data-aos-duration="1500" className='service-image-house'>
-            <div className='service-rectangle' />
-            <button>Houses</button>
-          </div>
+          <div>
+          <div className='serviceimg-container'>
+          
           <div data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom" data-aos-offset="100" data-aos-duration="1500" className='service-image-bulding'>
             <div className='service-rectangle' />
@@ -58,6 +69,13 @@ const Service = () => {
           </div>
 
         </div>
+          </div>
+        </div>
+          {/* <Typography sx={{ fontWeight: 300, fontSize: "24px", lineHeight: "28px", color: "#222D37", wordWrap: "break-word" }}>Flawless construction powered by deep expertise.</Typography> */}
+          
+
+        </div>
+        
       </div>
     </div>
     </MDBContainer>

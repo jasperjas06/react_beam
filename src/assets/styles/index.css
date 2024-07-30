@@ -501,3 +501,12 @@ background-position: center;
   top: 70%;
   left: 30%;
 }
+.howitwork{
+  margin-left: 20px;
+}
+.service-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 20px; */
+  /* margin: 20px; */
+}

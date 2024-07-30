@@ -154,5 +154,11 @@
       position: relative;
       top: 20px;
     }
+    .howitwork{
+      margin-left: 0px;
+    }
+    .service-grid{
+      grid-template-columns: auto;
+    }
       
 }
