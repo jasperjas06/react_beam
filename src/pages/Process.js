@@ -8,15 +8,23 @@ export default function Process({open,sepratePage=true}) {
     const [currentStep, setCurrentStep] = useState(1);
 
     useEffect(() => {
+        const totalSteps = 6;
         const totalSeconds = 6;
-        const intervalTime = (6 / totalSeconds) * 1000;
-
+        const intervalTime = (totalSeconds / totalSteps) * 1000;
+    
         const interval = setInterval(() => {
-            setCurrentStep(prev => (prev < 6 ? prev + 1 : 1));
+          setCurrentStep(prev => {
+            const nextStep = prev < totalSteps ? prev + 1 : 1;
+            return nextStep;
+          });
         }, intervalTime);
-
+    
         return () => clearInterval(interval);
-    }, []);
+      }, []);
+    
+      const percent = ((currentStep - 1) / 5) * 100;
+      console.log('Percent:' ,percent); 
+    
     return (
         <div>
             {open && <NavBar  />}
@@ -38,7 +46,7 @@ export default function Process({open,sepratePage=true}) {
                 </div>
                 <div className="process-bar">
                 {/* <ProgressBar  currentStep={currentStep} /> */}
-                <Progressbar percent={100} />
+                <Progressbar percent={percent} />
 
                 </div>
                 <div style={{width:"100%",display:"flex", alignItems:'center', justifyContent:'center'}} className="flex justify-center h-96 w-auto">

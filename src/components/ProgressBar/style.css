@@ -1,7 +1,7 @@
 .indexedStep {
     color: white;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     font-size: 12px;
     background-color: rgba(211, 211, 211, 0.8);
     border-radius: 50%;
@@ -11,5 +11,10 @@
   }
   
   .indexedStep.accomplished {
-    background-color: rgba(0, 116, 217, 1);
+    background-color: #cb2139;
+    /* background-color: rgba(0, 116, 217, 1); */
+  }
+
+  .RSPBprogressBar .RSPBprogression{
+    background-color: #cb2139 !important;
   }
