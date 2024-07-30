@@ -161,7 +161,32 @@
       grid-template-columns: auto;
     }
     .small-box{
-      top: 20%;
+      top: 10%;
+    }
+    .small-img{
+      width: 100px;
+      height: 100px;
     }
       
+}
+
+@media screen and (min-width: 760px) {
+  .client-logos img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .project-line{
+    top: 20px;
+  }
+
+  .small-img{
+    width: 70px;
+    height: 70px;
+  }
 }
