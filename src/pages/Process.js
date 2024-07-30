@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import building from "../assets/animations/building.gif"
 // import Navbar from "../components/Navbar/Navbar";
-import ProgressBar from "../components/Bar.js"
 import NavBar from "../nav/NavBar.js";
+import Progressbar from "../components/ProgressBar/ProgressBar.js";
 
 export default function Process({open,sepratePage=true}) {
     const [currentStep, setCurrentStep] = useState(1);
@@ -37,7 +37,8 @@ export default function Process({open,sepratePage=true}) {
                     
                 </div>
                 <div className="process-bar">
-                <ProgressBar  currentStep={currentStep} />
+                {/* <ProgressBar  currentStep={currentStep} /> */}
+                <Progressbar percent={100} />
 
                 </div>
                 <div style={{width:"100%",display:"flex", alignItems:'center', justifyContent:'center'}} className="flex justify-center h-96 w-auto">
