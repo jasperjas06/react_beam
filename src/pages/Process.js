@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import building from "../assets/animations/building.gif"
 // import Navbar from "../components/Navbar/Navbar";

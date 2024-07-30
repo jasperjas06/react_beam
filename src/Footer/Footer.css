@@ -65,9 +65,26 @@
     width: calc(100% - 130px);
     /* height: 20px; */
     gap: 150px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* flex-wrap: wrap; */
 }
+.footerNav{
+    cursor: pointer;
+    text-decoration: none;
+    color: hsla(352, 72%, 46%, 1);
+}
+.footerNav :hover{
+    color: whitesmoke !important;
+}
+.footerNav-con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 20px;
+}
+
 
 @media screen and (max-width : 425px) {
     .footerBody{
@@ -75,6 +92,10 @@
     }
     .footerTextCon{
         width: 100% !important;
+        grid-template-columns: auto !important;
+    }
+    .footerTextWra{
+        margin-bottom: 16px;
     }
     .footerFooterWra{
         gap: 10px !important;

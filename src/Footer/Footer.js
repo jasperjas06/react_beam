@@ -5,8 +5,10 @@ import { faFacebookF, faInstagram, faLinkedinIn, faTwitter, faYoutube } from "@f
 // import SocialIcon from "../Social Icon/SocialIcon";
 import SocialIcon from "../components/Social Icon/SocialIcon";
 import post from "../assets/images/post.png"
+import { Link } from "react-router-dom";
 
 const Footer = ()=>{
+    let presentYear = new Date().getFullYear();
 
     return(
         <div>
@@ -30,37 +32,26 @@ const Footer = ()=>{
                 <div className="footerBody" >
                     <div className="footerTextCon" >
                         <div className="footerTextWra" >
-                            <h5 className="footerTextWraHeader">Heading</h5>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
+                            <h5 className="footerTextWraHeader">About Us</h5>
+                            <p className="footerTextWraText about" style={{width:"350px",position:"relative", top:"10px", color:"GrayText"}} >At BeamTech Pvt Ltd, we’re not just builders; we’re visionaries. As South India’s first tech-enabled civil construction company, we blend cutting-edge technology with time-tested construction practices. Our commitment to innovation and excellence drives us to deliver high-quality, efficient, and sustainable solutions for residential, commercial, and industrial projects.</p>
+                        </div>
+                        <div style={{display:"grid", gridTemplateColumns:"auto auto", width:"100%"}}>
+                        <div className="footerTextWra" >
+                            <h5 className="footerTextWraHeader">Feature</h5>
+                            <div className="footerNav-con">
+                            <Link to="/solutions" className="footerNav" >Solutions</Link>
+                            <Link to="/work" className="footerNav" >Work</Link>
+                            <Link to="/process" className="footerNav" >Process</Link>
+                            </div>
+                            
                         </div>
                         <div className="footerTextWra" >
-                            <h5 className="footerTextWraHeader">Heading</h5>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
+                            <h5 className="footerTextWraHeader">Helpful</h5>
+                            <div className="footerNav-con">
+                            <Link to="/about" className="footerNav" >About Us</Link>
+                            <Link to="/contact" className="footerNav" >Contact</Link>
+                            </div>
                         </div>
-                        <div className="footerTextWra" >
-                            <h5 className="footerTextWraHeader">Heading</h5>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
-                            <p className="footerTextWraText" >paragraph</p>
                         </div>
                     </div>
                     <div className="footerPostImgCon" >
@@ -70,7 +61,8 @@ const Footer = ()=>{
             </div>
         </div>
                 <div className="footerFooterCon" >
-                    <div className="footerFooterWra" >
+                <p>&copy;{presentYear} Beamtech All rights reserved</p>
+                    {/* <div className="footerFooterWra" >
                     <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/about">
                         <p className="footerFooterText" >About</p>
                     </a>
@@ -86,10 +78,7 @@ const Footer = ()=>{
                     <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/contact">
                         <p className="footerFooterText" >Contact</p>
                     </a>
-                        {/* <p className="footerFooterText" >paragraph</p>
-                        <p className="footerFooterText" >paragraph</p>
-                        <p className="footerFooterText" >paragraph</p> */}
-                    </div>
+                    </div> */}
                 </div>
         </div>
     );
