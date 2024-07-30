@@ -160,5 +160,8 @@
     .service-grid{
       grid-template-columns: auto;
     }
+    .small-box{
+      top: 20%;
+    }
       
 }
