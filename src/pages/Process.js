@@ -50,7 +50,7 @@ export default function Process({open,sepratePage=true}) {
                 <Progressbar percent={percent} />
 
                 </div>
-                <div style={{width:"100%",display:"flex", alignItems:'center', justifyContent:'center'}} className="flex justify-center h-96 w-auto">
+                <div style={{width:"100%",display:"flex", alignItems:'center', justifyContent:'center'}} className="Img flex justify-center h-96 w-auto">
                     {/* className="pt-16" */}
                     <img
                         src={building}
