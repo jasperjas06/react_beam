@@ -4,8 +4,6 @@ const Cultuer = () => {
   return (
     <div className="culture-mainContainer">
       <div className="culture-box">
-        <div className="culture-content">
-          <div style={{ display: "flex", flexDirection: "column" }}>
             <h1
               style={{
                 fontWeight: 700,
@@ -17,6 +15,8 @@ const Cultuer = () => {
             >
               Cultuer
             </h1>
+        <div className="culture-content">
+          <div style={{ display: "flex", flexDirection: "row",gap:"20px" }}>
             <br/>
             <br/>
             <div className="timeline">
@@ -63,8 +63,8 @@ const Cultuer = () => {
                 </TimelineItem>
               </Timeline> */}
             </div>
-          </div>
           <img src={require("../assets/images/house-service.jpeg")} alt="img" />
+          </div>
         </div>
       </div>
     </div>

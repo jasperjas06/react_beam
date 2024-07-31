@@ -1,4 +1,4 @@
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
   .first img {
     display: none;
   }
@@ -14,7 +14,7 @@
     width: 80%;
   }
   .culture-content img {
-    width: 100% !important;
+    width: 450px !important;
     padding: 20px;
   }
   .culture-content {
@@ -203,6 +203,14 @@
 @media screen and (max-width: 450px) {
   .hrLine{
     margin-top: 9px;
+  }
+  .culture-content img {
+    width: 250px !important;
+    height: 250px;
+  }
+
+  .lines{
+    margin-left: 20px;
   }
   
 }
