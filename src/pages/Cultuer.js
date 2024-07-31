@@ -10,7 +10,7 @@ const Cultuer = () => {
                 fontSize: "60px",
                 lineweight: "75.6px",
                 letterSpacing: "-2%",
-                // marginLeft:"40px"
+                marginLeft:"40px"
               }}
             >
               Cultuer
