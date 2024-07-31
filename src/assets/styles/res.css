@@ -211,6 +211,7 @@
   .lines{
     margin-left: 20px;
   }
+
   
 }
 
@@ -271,4 +272,22 @@
     top: 10%;
   }
   
+}
+
+@media screen and (max-width: 1024px) {
+  .scroll-container {
+      height: 800vh !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .scroll-container{
+    height: 650vh !important;
+  } 
+}
+
+@media screen and(max-width: 425px) {
+  .scroll-container {
+    height: 200vh !important;
+  }
 }
