@@ -516,3 +516,8 @@ background-position: center;
   /* gap: 20px; */
   /* margin: 20px; */
 }
+.Img img {
+  /* // style={{paddingTop:8,maxWidth:"596px", height:"464px", padding:"40px"}} */
+  padding: 40px;
+  width:576px ;
+}

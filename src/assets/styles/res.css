@@ -173,6 +173,9 @@
       max-width: 512px;
       height: 387px;
     }
+    .Img {
+      width: 100% !important;
+    }
       
 }
 

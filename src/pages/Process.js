@@ -51,12 +51,12 @@ export default function Process({open,sepratePage=true}) {
 
                 </div>
                 <div style={{width:"100%",display:"flex", alignItems:'center', justifyContent:'center'}} className="Img flex justify-center h-96 w-auto">
-                    {/* className="pt-16" */}
+                    
                     <img
                         src={building}
                         alt="Building Construction"
                         className="pt-8 md:pt-16 w-fit mx-auto"
-                        style={{paddingTop:8,maxWidth:"596px", height:"464px", padding:"40px"}}
+                        // style={{paddingTop:8,maxWidth:"596px", height:"464px", padding:"40px"}}
                     />
                 </div>
                 <div className="flex justify-center">
