@@ -262,7 +262,7 @@
 
 }
 
-/* @media screen and (max-width: 1281px) {
+@media screen and (max-width: 800px) {
   .scroll-container {
     height: 400vh !important;
     position: relative;
@@ -270,4 +270,4 @@
     top: 10%;
   }
   
-} */
+}
