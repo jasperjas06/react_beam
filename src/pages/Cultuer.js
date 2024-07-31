@@ -16,7 +16,7 @@ const Cultuer = () => {
               Cultuer
             </h1>
         <div className="culture-content">
-          <div style={{ display: "flex", flexDirection: "row",gap:"20px" }}>
+          <div className='culture-subcontent'>
             <br/>
             <br/>
             <div className="timeline">

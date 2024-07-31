@@ -202,7 +202,15 @@ html, body {
   top: 33px;
   left: 45px;
   gap: 109px;
+  margin-left: 40px;
   /* opacity: 0px; */
+}
+
+.culture-subcontent{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
 }
 
 .culture-content img {
