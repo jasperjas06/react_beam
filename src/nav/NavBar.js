@@ -29,8 +29,6 @@ export default function NavBar() {
             src={Logo}
           />
           </a>
-          <div className="buttonCon">
-        </div>
           {/* <MDBIcon icon="times" fas /> */}
         {/* <MDBCollapse navbar open={openBasic}> */}
         <div className="nav-link-connects">
@@ -81,7 +79,7 @@ export default function NavBar() {
                         <span className="flex items-center">Speak With Us</span>
                     </Link>
                 </div>
-    
+       <div className="buttonCon">
         <MDBNavbarToggler
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
@@ -90,6 +88,7 @@ export default function NavBar() {
         >
           <MDBIcon icon="bars" fas />
         </MDBNavbarToggler>
+          </div>
         
         </div>
         <MDBCollapse navbar open={openBasic}>

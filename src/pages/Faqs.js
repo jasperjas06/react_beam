@@ -53,7 +53,7 @@ const Faqs = () => {
       <div className='faq-question'>
             {questions.map((question,index)=>{
                 return(
-                    <div key={index}>
+                    <div key={index} className='faq-question-container'>
                     <div  className='faq-question-item' onClick={()=>showAnswer(index)}>
                         <div className='faq-question-item-header'>
                             <p>{question.q}</p>
@@ -62,7 +62,7 @@ const Faqs = () => {
                             <p>{question.ans}</p>
                         </div>}
                     </div>
-                    <div style={{width:"100%",height:"2px",background:"black"}}/>
+                    <div className='hrLine'/>
                     </div>
                 )
             })}

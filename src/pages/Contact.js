@@ -80,7 +80,7 @@ export default function Contact({open,sepratePage=true}) {
             {
                 open && <NavBar/>
             }
-            <div style={{margin:'40px'}}>
+            <div>
             <div style={{display:"grid", gridTemplateColumns:"auto auto ", padding:"20px",}} className="contact-container">
                 <div className="text-center md:text-left md:col-span-1">
                     {/* className="text-6xl font-bold" */}

@@ -21,10 +21,8 @@
 }
 
 .buttonCon{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 0;
+  position: relative;
+  right: 7px;
 }
 .nav-logo{
   width: 100%;
