@@ -36,15 +36,19 @@ const Home = ({setOpen,open}) => {
       <div>
         <Work/>
       </div>
+      <br/>
       <div>
         <Clients/>
       </div>
+      <br/>
       <div>
         <Faqs/>
       </div>
+      <br/>
       <div>
         <Contact/>
       </div>
+      <br/>
       <div className='construct-img'>
         <img src={require("../assets/images/newBulding.jpg")} alt='construct' />
         {/* <img src={require("../assets/images/engineering-construction.png")} alt='construct' /> */}

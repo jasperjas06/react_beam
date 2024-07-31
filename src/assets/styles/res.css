@@ -158,6 +158,7 @@
     }
     .service-grid{
       grid-template-columns: auto;
+      margin-bottom: 10px;
     }
     .small-box{
       top: 10%;

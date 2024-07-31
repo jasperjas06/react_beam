@@ -1,4 +1,5 @@
 // import { Divider } from '@mui/material'
+import { MDBContainer } from 'mdb-react-ui-kit';
 import React, { useEffect, useState } from 'react'
 
 const Faqs = () => {
@@ -42,7 +43,7 @@ const Faqs = () => {
     }
     useEffect(()=>{},[questions])
   return (
-    <>
+    <MDBContainer>
     <div className='faq-container'>
       <div className='faq-header'>
         <p>FAQs</p>
@@ -69,7 +70,7 @@ const Faqs = () => {
       </div>
     </div>
 
-    </>
+    </MDBContainer>
   )
 }
 

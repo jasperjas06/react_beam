@@ -28,6 +28,8 @@ const Clients = () => {
           <img src={require('../assets/images/icon.png')} alt='client2' />
         </div>
       </div>
+      <br/>
+      <br/>
       <div className='cta-container'>
       <div className='cta-header'>
       <p>CTA Section</p>
