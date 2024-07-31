@@ -57,7 +57,7 @@ const LandingPage = () => {
       </div>
 
       <div className="scroll-content third"
-        style={{ transform: `translateX(${scrollPosition / 2}px)` }}>
+        style={{ transform: `translateX(${scrollPosition / 1.5}px)` }}>
       <h2 >
           Lorem ipsum dolor sit
         </h2>
