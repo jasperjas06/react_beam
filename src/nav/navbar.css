@@ -8,6 +8,8 @@
 } */
 .nav-bar {
   background-color: #dcddde;
+  position: fixed;
+  top: 0;
   
 }
 

@@ -33,7 +33,11 @@ const Footer = ()=>{
                     <div className="footerTextCon" >
                         <div className="footerTextWra" >
                             <h5 className="footerTextWraHeader">About Us</h5>
-                            <p className="footerTextWraText about" style={{width:"350px",position:"relative", top:"10px", color:"GrayText"}} >At BeamTech Pvt Ltd, we’re not just builders; we’re visionaries. As South India’s first tech-enabled civil construction company, we blend cutting-edge technology with time-tested construction practices. Our commitment to innovation and excellence drives us to deliver high-quality, efficient, and sustainable solutions for residential, commercial, and industrial projects.</p>
+                            <p className="footerTextWraText about" style={{width:"350px",position:"relative", top:"10px", color:"GrayText"}} >At BeamTech Pvt Ltd, we’re not just builders; we’re visionaries. Our unique blend of
+cutting-edge technology and time-tested construction practices allows us to set new
+benchmarks in the industry. Our commitment to excellence drives us to create structures that
+stand the test of time.
+</p>
                         </div>
                     <div className="footerPostCon">
                         <div style={{display:"grid", gridTemplateColumns:"auto auto auto", width:"100%"}}>

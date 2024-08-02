@@ -22,15 +22,15 @@ const Service = () => {
           <ul style={{listStyle:"disc",padding :"20px",fontSize: "18px", lineHeight: "28px", color: "#222D37", wordWrap: "break-word",
             fontFamily:"outfit"
           }}>
-          <li><b style={{color:"red"}}>Planning and Design: </b> Our team of expert architects and designers harnesses the
+          <li><b style={{color:"red"}}>Planning and Design: </b> <br/> Our team of expert architects and designers harnesses the
               latest software and technology to create detailed plans and blueprints. We ensure
               compliance with local building codes, providing a solid foundation for your project.</li>
             <li><b style={{color:"red"}}>
-              Foundation and Structure: </b> BeamTech prioritizes robust foundations and structures.
+              Foundation and Structure: </b><br/> BeamTech prioritizes robust foundations and structures.
               Using advanced techniques and materials, we prepare sites, lay foundations, and
               construct structural frames for maximum stability and durability.
             </li>
-            <li><b style={{color:"red"}}>Advanced Construction Techniques: </b> Prefabrication, modular construction, and
+            <li><b style={{color:"red"}}>Advanced Construction Techniques: </b><br/> Prefabrication, modular construction, and
               sustainable practices are our specialties. High-quality materials and modern
               techniques ensure efficient, high-standard projects.
               </li>
@@ -45,17 +45,17 @@ const Service = () => {
           }}>
             
               <li><b style={{color:"red"}}>
-                Technology Integration: </b> We leverage 3D modelling, virtual reality walkthroughs,
+                Technology Integration: </b><br/> We leverage 3D modelling, virtual reality walkthroughs,
                 smart building systems, and automation to enhance every aspect of construction.
 
               </li>
               <li><b style={{color:"red"}}>
-                Interior and Exterior Finishing: </b> Our comprehensive services cover electrical
+                Interior and Exterior Finishing: </b> <br/>Our comprehensive services cover electrical
                 systems, plumbing, insulation, roofing, siding, and smart home integration. Every
                 detail is perfected to your specifications.
 
               </li>
-              <li><b style={{color:"red"}}>Inspection and Approval: </b> Rigorous inspections at every stage ensure quality and
+              <li><b style={{color:"red"}}>Inspection and Approval: </b><br/> Rigorous inspections at every stage ensure quality and
                 safety. We work closely with local authorities to obtain necessary approvals,
                 guaranteeing compliance with regulatory requirements</li>
             

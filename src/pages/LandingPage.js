@@ -33,13 +33,14 @@ const LandingPage = () => {
           // opacity: scrollPosition < window.innerHeight / 2 ? 1 : 0,
         }}>
       <h2 style={{ fontWeight: "bold" }}>
-          Construct Your Dream
+      BeamTech Pvt Ltd
         </h2>
         <img src={Home} alt=''/>
         <h2 style={{ color: "red", fontWeight: "bold" }}>
-          Home
+        Innovating the Future<br/>
+        of Construction
         </h2>
-        <p>
+        {/* <p>
           Step Into the Home You've Always dreamed
         </p>
         <p>
@@ -47,7 +48,7 @@ const LandingPage = () => {
         </p>
         <p>
           Quality
-        </p>
+        </p> */}
       </div>
 {/* image */}
       <div>
@@ -59,12 +60,15 @@ const LandingPage = () => {
       <div className="scroll-content third"
         style={{ transform: `translateX(${scrollPosition / 1.5}px)` }}>
       <h2 >
-          Lorem ipsum dolor sit
+      Welcome to BeamTech Pvt Ltd
         </h2>
-        <h2 >
-          amet consectetur.
-        </h2>
-        <div className='counter-box'>
+        <p >
+        Where innovation meets construction. As South India’s first
+tech-enabled civil construction company, <br/>we are dedicated to delivering high-quality, efficient,
+and sustainable solutions for residential, commercial, and industrial projects.
+
+        </p>
+        {/* <div className='counter-box'>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
             <div className='circle-counter'>
               <center>
@@ -85,7 +89,7 @@ const LandingPage = () => {
             </div>
             <h4 className='counter-lable'>Quality Checks</h4>
           </div>
-        </div>
+        </div> */}
       </div>
 
     </div>

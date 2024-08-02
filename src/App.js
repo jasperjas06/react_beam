@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Process from './pages/Process';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import About from './pages/seperatePages/About';
 import Package from './pages/Package';
 
 function App() {
