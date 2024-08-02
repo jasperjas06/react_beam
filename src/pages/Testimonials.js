@@ -1,12 +1,10 @@
 import {
-  CButton,
   CCard,
   CCardBody,
   CCardText,
   CCardTitle,
   CCarousel,
   CCarouselItem,
-  CImage,
 } from "@coreui/react";
 import React from "react";
 

@@ -1,12 +1,11 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { MDBCarousel, MDBCarouselItem, MDBContainer } from 'mdb-react-ui-kit'
+import {  MDBContainer } from 'mdb-react-ui-kit'
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Testimonials from './Testimonials';
-import { CCard, CCardBody, CCardText, CCardTitle } from '@coreui/react';
 
 const Clients = () => {
   return (
