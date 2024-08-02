@@ -485,6 +485,8 @@ background-color: #a21c32;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  width: 100%;
 }
 .small-img{
   width: 123px;
@@ -510,9 +512,10 @@ background-position: center;
   justify-content: center;
   align-items: center;
   gap: 12px;
-  top: 40%;
+  /* top: 40%; */
   right: inherit;
   position: relative;
+  width: 50%;
 }
 .About {
   margin-top: 20px;
@@ -539,4 +542,37 @@ background-position: center;
   /* // style={{paddingTop:8,maxWidth:"596px", height:"464px", padding:"40px"}} */
   padding: 40px;
   width:576px ;
+}
+
+.project-line-span{
+  font-weight: bold;
+}
+
+.carousel-control-prev-icon::after , .carousel-control-next-icon::after {
+  display: none;
+}
+
+.carousel-item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.client-image{
+  width: 100px;
+}
+
+.car-name-div {
+  display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.quote_icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 50%;
 }

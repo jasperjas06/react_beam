@@ -67,7 +67,7 @@ stand the test of time.
             </div>
         </div>
                 <div className="footerFooterCon" >
-                <p>&copy;{presentYear} Beamtech All rights reserved</p>
+                <p>&copy;{presentYear} BeamTech Pvt Ltd. All rights reserved</p>
                     {/* <div className="footerFooterWra" >
                     <a style={{textDecoration:"none",color:"#222d37", fontSize:"1rem", fontWeight:"600"}} href="/about">
                         <p className="footerFooterText" >About</p>

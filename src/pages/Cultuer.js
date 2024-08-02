@@ -13,7 +13,7 @@ const Cultuer = () => {
                 marginLeft:"40px"
               }}
             >
-              Cultuer
+              Culture
             </h1>
         <div className="culture-content">
           <div className='culture-subcontent'>

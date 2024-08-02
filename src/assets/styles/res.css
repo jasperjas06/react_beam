@@ -160,9 +160,6 @@
       grid-template-columns: auto;
       margin-bottom: 10px;
     }
-    .small-box{
-      top: 10%;
-    }
     .small-img{
       width: 100px;
       height: 100px;
@@ -289,5 +286,14 @@
 @media screen and(max-width: 425px) {
   .scroll-container {
     height: 200vh !important;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  .small-box {
+    flex-flow: column;
+  }
+  .small-img{
+    top: 0;
   }
 }

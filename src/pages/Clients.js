@@ -14,7 +14,7 @@ const Clients = () => {
       <div className='our-clients'>
         <p>Our Clients</p>
       </div>
-      <div>
+      {/* <div>
         <div className='client-logos clientStyle'>
           <img src={require('../assets/images/icon.png')} alt='client1' />
           <img src={require('../assets/images/icon.png')} alt='client2' />
@@ -31,7 +31,7 @@ const Clients = () => {
           <img src={require('../assets/images/icon.png')} alt='client1' />
           <img src={require('../assets/images/icon.png')} alt='client2' />
         </div>
-      </div>
+      </div> */}
       <br/>
       <br/>
       <div className='client-says' >
