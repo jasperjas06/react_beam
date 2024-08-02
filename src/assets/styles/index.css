@@ -530,9 +530,6 @@ background-position: center;
   top: 70%;
   left: 30%;
 }
-.howitwork{
-  margin-left: 20px;
-}
 .service-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -568,11 +565,12 @@ background-position: center;
 }
 
 .quote_icon {
+  color: blue;
   width: 30px;
   height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: gray;
+  background-color: #080a0c20;
   border-radius: 50%;
 }

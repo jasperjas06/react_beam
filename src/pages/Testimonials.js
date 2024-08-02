@@ -122,7 +122,7 @@ export default function App() {
                   </div>
                   </div>    
                   <div className="quote_icon">
-                  <MDBIcon fas icon="quote-left" className="pe-2" />
+                  <MDBIcon fas icon="quote-left" />
                   </div>    
                 </MDBCol>
                 <MDBCol>
@@ -161,7 +161,7 @@ export default function App() {
                   </div>
                   </div>
                   <div className="quote_icon">
-                  <MDBIcon fas icon="quote-left" className="pe-2" />
+                  <MDBIcon fas icon="quote-left" />
                   </div>
                 </MDBCol>
                 <MDBCol>

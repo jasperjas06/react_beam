@@ -27,7 +27,7 @@ const Work = ({ open }) => {
             Our Projects
           </h1>
           {/* className="pt-10 max-w-lg text-2xl" */}
-          <p
+          {/* <p
             className="project-line "
             style={{ 
               fontWeight: 300,
@@ -37,7 +37,7 @@ const Work = ({ open }) => {
           >
             From a couple to a large Indian family, we have houses built with
             emotions for everyone.
-          </p>
+          </p> */}
         </div>
         {/* className="relative top-28 flex justify-end" */}
         <div className="small-box">
