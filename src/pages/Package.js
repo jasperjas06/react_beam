@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import NavBar from "../nav/NavBar";
+import { MDBContainer } from "mdb-react-ui-kit";
 const Package = ({open}) => {
   useEffect(() => {
     Aos.init();
@@ -13,12 +14,14 @@ const Package = ({open}) => {
       open && <NavBar />
     }
     <div className="package-main">
-      <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold">
-        Our Packages
-      </h1>
+      
 
       {
         open ? (
+          <MDBContainer style={{marginTop:"20px"}}>
+          <h2 className="text-4xl md:text-4xl lg:text-5xl font-bold" style={{fontWeight:"bold"}}>
+        Our Packages
+      </h2>
           <div className="package-container">
         
           <div
@@ -82,7 +85,11 @@ const Package = ({open}) => {
           </div>
         {/* </Container> */}
       </div>
-        ):(
+      </MDBContainer>):(
+          <>
+          <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold">
+        Our Packages
+      </h1>
           <div className="package-container">
         
           <div
@@ -146,6 +153,7 @@ const Package = ({open}) => {
           </div>
         {/* </Container> */}
       </div>
+      </>
         )
       }
       <br/>

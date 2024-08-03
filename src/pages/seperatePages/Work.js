@@ -4,6 +4,7 @@ import building2 from "../../assets/images/p2.png";
 import building3 from "../../assets/images/p3.png";
 import building4 from "../../assets/images/p4.png";
 import NavBar from "../../nav/NavBar";
+import { MDBCard, MDBCardBody, MDBCarousel, MDBCarouselItem, MDBCol, MDBContainer, MDBIcon, MDBRow } from "mdb-react-ui-kit";
 
 const imageUrls = [building1, building2, building3, building4];
 const Work = ({ open }) => {
@@ -15,95 +16,108 @@ const Work = ({ open }) => {
   return (
     <div>
       {open && <NavBar />}
-      <div className="project"
-      style={{backgroundColor:"#4f4f4f"}}
-      //  style={{ backgroundImage: `url(${bgImage})` }}
-       >
-        {/* className="pt-14 px-14 text-black" */}
-        <div className="pt-14 px-5 md:px-14 text-black" style={{width:"50%"}}>
-          {/* className="text-6xl font-bold"font-size: 60px;
-  font-weight: 700; */}
-          {/* <h1
-            className="project-title"
-            style={{ color: "#DCDDDE", fontSize: "60px", fontWeight: "700" }}
-          >
-            Our Projects
-          </h1> */}
-          {/* className="pt-10 max-w-lg text-2xl" */}
-          <p
-            className="project-line "
-            style={{
-              color: "#DCDDDE",
-              fontWeight: "bold",
-              fontSize: "40px",
-              lineHeight: "28px",
-            }}
-          >
-           Our Recent Work
-           </p>
-           <p
-            className="project-line "
-            style={{
-              color: "#DCDDDE",
-              fontWeight: "bold",
-              fontSize: "24px",
-              lineHeight: "28px",
-              textShadow: "1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000"
-            }}
-          >
-            Residential Homes
-          </p>
-            <p
-            className="project-line "
-            style={{
-              color: "#DCDDDE",
-              fontWeight: 300,
-              fontSize: "24px",
-              lineHeight: "28px",
-              textShadow: "1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000"
-            }}
-          >
-           <span className="project-line-span"> ●	The Eco Smart Home:</span> A sustainable, energy-efficient home featuring smart technology and eco-friendly materials.<br/>
-           <span className="project-line-span"> ●	The Modern Haven:</span>  A contemporary residence with sleek design, advanced automation, and luxurious finishes.<br/> 
-          </p>
-            <p
-            className="project-line "
-            style={{
-              color: "#DCDDDE",
-              fontWeight: "bold",
-              fontSize: "24px",
-              lineHeight: "28px",
-              textShadow: "1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000"
-            }}
-          >    Commercial Buildings
-          </p>
-            <p
-            className="project-line "
-            style={{
-              color: "#DCDDDE",
-              fontWeight: 300,
-              fontSize: "24px",
-              lineHeight: "28px",
-              textShadow: "1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000"
-            }}
-          >
-          <span className="project-line-span"> ●	TechHub Office Complex:</span> A modern office building equipped with the latest smart building technologies for enhanced productivity.<br/>
-          <span className="project-line-span"> ●	GreenMall Expansion:</span> An eco-friendly mall expansion project incorporating sustainable construction practices and green technologies.<br/>
-          </p>
-        </div>
-        {/* className="relative top-28 flex justify-end" */}
-        <div className="small-box">
-          {imageUrls.map((url, index) => (
-            <div
-              key={index}
-              // className="bg-cover bg-center h-36 w-32 mr-5 rounded-3xl cursor-pointer"
-              className="small-img"
-              style={{ backgroundImage: `url(${url})` }}
-              // onClick={() => handleImageClick(url)}
-            ></div>
-          ))}
-        </div>
+      <div className="project2">
+        <MDBContainer>
+          <div style={{ marginTop: "20px" }}>
+            <h2 style={{ fontWeight: "bold" }}>Our Recent Work</h2>
+            <br/>
+            <div>
+            <h4>Residential Homes</h4>
+              <ul
+                style={{
+                  listStyle: "disc",
+                  padding: "20px",
+                  fontSize: "18px",
+                  lineHeight: "28px",
+                  color: "#222D37",
+                  wordWrap: "break-word",
+                  fontFamily: "outfit",
+                }}
+              >
+                <li>
+                  <b style={{ color: "red" }}>The Eco Smart Home: </b>
+                  <br /> A sustainable, energy-efficient home featuring smart
+                  technology and eco-friendly materials.
+                </li>
+                <li>
+                  <b style={{ color: "red" }}>The Modern Haven: </b> <br />A
+                  contemporary residence with sleek design, advanced automation,
+                  and luxurious finishes.
+                </li>
+              </ul>
+            </div>
+            <div>
+            <h4>Commercial Buildings</h4>
+              <ul
+                style={{
+                  listStyle: "disc",
+                  padding: "20px",
+                  fontSize: "18px",
+                  lineHeight: "28px",
+                  color: "#222D37",
+                  wordWrap: "break-word",
+                  fontFamily: "outfit",
+                }}
+              >
+                <li>
+                  <b style={{ color: "red" }}>TechHub Office Complex: </b>
+                  <br /> A modern office building equipped with the latest smart
+                  building technologies for enhanced productivity.
+                </li>
+                <li>
+                  <b style={{ color: "red" }}>GreenMall Expansion: </b> <br />An eco-friendly mall expansion project incorporating sustainable
+                  construction practices and green technologies.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </MDBContainer>
+        
       </div>
+      <MDBContainer>
+        <MDBRow className="py-5 text-center">
+      <MDBCol md="12">
+       <MDBCarousel showControls dark>
+      <MDBCarouselItem className="active">
+      <MDBRow className="d-flex justify-content-center">
+        <MDBCol md="10" style={{maxWidth:"500px"}}>
+          <div>
+                  <img src={building1} alt="" height={"300px"} width={"100%"}/>
+                </div> 
+        </MDBCol>
+      </MDBRow>
+      </MDBCarouselItem>
+      <MDBCarouselItem className="active">
+      <MDBRow className="d-flex justify-content-center">
+        <MDBCol md="10" style={{maxWidth:"500px"}}>
+          <div>
+                  <img src={building2} alt="" height={"300px"} width={"100%"}/>
+                </div> 
+        </MDBCol>
+      </MDBRow>
+      </MDBCarouselItem>
+      <MDBCarouselItem className="active">
+      <MDBRow className="d-flex justify-content-center">
+        <MDBCol md="10" style={{maxWidth:"500px"}}>
+          <div>
+                  <img src={building3} alt="" height={"300px"} width={"100%"}/>
+                </div> 
+        </MDBCol>
+      </MDBRow>
+      </MDBCarouselItem>
+      <MDBCarouselItem className="active">
+      <MDBRow className="d-flex justify-content-center">
+        <MDBCol md="10" style={{maxWidth:"500px"}}>
+          <div>
+                  <img src={building4} alt="" height={"300px"} width={"100%"}/>
+                </div> 
+        </MDBCol>
+      </MDBRow>
+      </MDBCarouselItem>
+      </MDBCarousel>
+      </MDBCol>
+    </MDBRow>
+        </MDBContainer>
     </div>
   );
 };

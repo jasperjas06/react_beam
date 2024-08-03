@@ -2,11 +2,11 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import { useState } from 'react';
-import Process from './pages/Process';
 import Work from './pages/seperatePages/Work';
 import Contact from './pages/Contact';
 import About from './pages/seperatePages/About';
 import Package from './pages/Package';
+import Process from './pages/seperatePages/Process';
 
 function App() {
   const [open,setOpen] = useState(true);
