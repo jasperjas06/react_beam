@@ -81,6 +81,11 @@ export default function Contact({open,sepratePage=true}) {
             {
                 open && <NavBar/>
             }
+            {
+                open && (<><br/>
+                    
+                <br/></>)
+            }
             <MDBContainer style={{marginTop:"10px"}}>
             <div style={{display:"grid", gridTemplateColumns:"auto auto ", }} className="contact-container">
                 <div className="text-center md:text-left md:col-span-1">

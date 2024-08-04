@@ -16,12 +16,13 @@ const Work = ({ open }) => {
   return (
     <div>
       {open && <NavBar />}
-      <h1
+      <MDBContainer><h1
             className="project-title"
-            style={{ fontSize: "60px", fontWeight: "700", marginLeft:"40px"}}
+            style={{ fontSize: "60px", fontWeight: "700", }}
           >
             Our Projects
-          </h1>
+          </h1></MDBContainer>
+      
           <br/>
           <MDBContainer>
           <p>Our projects include innovative, sustainable residential homes and advanced commercial buildings with cutting-edge technology. We also specialize in eco-friendly industrial projects, such as state-of-the-art manufacturing plants and efficient logistics hubs</p>

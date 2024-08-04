@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import building1 from "../../assets/images/p1.png";
 import building2 from "../../assets/images/p2.png";
 import building3 from "../../assets/images/p3.png";
 import building4 from "../../assets/images/p4.png";
 import NavBar from "../../nav/NavBar";
-import { MDBCard, MDBCardBody, MDBCarousel, MDBCarouselItem, MDBCol, MDBContainer, MDBIcon, MDBRow } from "mdb-react-ui-kit";
+import {  MDBCarousel, MDBCarouselItem, MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 
-const imageUrls = [building1, building2, building3, building4];
+// const imageUrls = [building1, building2, building3, building4];
 const Work = ({ open }) => {
   // const [bgImage, setBgImage] = useState(imageUrls[0]);
 

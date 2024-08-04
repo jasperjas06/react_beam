@@ -64,7 +64,7 @@ export default function Process({open,sepratePage=true}) {
                 <div className="flex justify-center">
                     {/* className="w-2/3 pt-16 text-2xl text-center" */}
                     <p className="w-full md:w-2/3 pt-8 md:pt-16 text-lg md:text-2xl text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin dui vitae mauris mattis, ut tincidunt nunc hendrerit. Morbi viverra, augue sed hendrerit vehicula, tellus felis tempus elit, id feugiat augue leo eu arcu.
+                    At BeamTech Pvt Ltd, we simplify the construction process into clear and manageable steps. From initial consultation and design to project management and final inspection, we ensure every phase is meticulously planned and executed. Our team of experts collaborates closely with clients to understand their vision, providing transparent updates and maintaining the highest standards of quality and safety. Whether you're building a new structure or renovating an existing one, we are committed to delivering exceptional results on time and within budget.
                     </p>
                 </div>
             </section>

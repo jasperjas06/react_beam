@@ -277,6 +277,15 @@
       /* height: 800vh !important; */
   }
 }
+@media screen and (max-width: 821px) {
+  .service-grid {
+      grid-template-columns: auto;
+  }
+  .serviceimg-container {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
 @media screen and (max-width: 361px) {
   .first h2 {
       /* height: 800vh !important; */

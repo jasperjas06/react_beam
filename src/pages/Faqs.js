@@ -48,7 +48,7 @@ const Faqs = () => {
       <div className='faq-header'>
         <p>FAQs</p>
         <div className='faq-content'>
-            <p>Lorem ipsum dolor sit amet consectetur. A convallis non praesent ultricies vivamus eget urna aliquam.</p>
+            <p>Your questions - answered! Find the information you need below!</p>
         </div>
       </div>
       <div className='faq-question'>
