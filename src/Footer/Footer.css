@@ -6,6 +6,14 @@
     align-items: center;
     background-color: #222D37;
 }
+.footerNav {
+    color: initial; /* Set your initial color */
+    text-decoration: none; /* Optional: Remove underline */
+  }
+  
+  .footerNav:hover {
+    color: white;
+  }
 
 .footerWra{
     width: 90%;

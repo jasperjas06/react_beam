@@ -75,49 +75,42 @@ const Work = ({ open }) => {
         
       </div>
       <MDBContainer>
-        <MDBRow className="py-5 text-center">
-      <MDBCol md="12">
-       <MDBCarousel showControls dark>
-      <MDBCarouselItem className="active">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="10" style={{maxWidth:"500px"}}>
-          <div>
-                  <img src={building1} alt="" height={"300px"} width={"100%"}/>
-                </div> 
-        </MDBCol>
-      </MDBRow>
-      </MDBCarouselItem>
-      <MDBCarouselItem className="active">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="10" style={{maxWidth:"500px"}}>
-          <div>
-                  <img src={building2} alt="" height={"300px"} width={"100%"}/>
-                </div> 
-        </MDBCol>
-      </MDBRow>
-      </MDBCarouselItem>
-      <MDBCarouselItem className="active">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="10" style={{maxWidth:"500px"}}>
-          <div>
-                  <img src={building3} alt="" height={"300px"} width={"100%"}/>
-                </div> 
-        </MDBCol>
-      </MDBRow>
-      </MDBCarouselItem>
-      <MDBCarouselItem className="active">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="10" style={{maxWidth:"500px"}}>
-          <div>
-                  <img src={building4} alt="" height={"300px"} width={"100%"}/>
-                </div> 
-        </MDBCol>
-      </MDBRow>
-      </MDBCarouselItem>
+  <MDBRow className="py-5 text-center">
+    <MDBCol md="12">
+      <MDBCarousel showControls dark>
+        <MDBCarouselItem className="active">
+          <MDBRow className="d-flex justify-content-center">
+            <MDBCol md="10" style={{ maxWidth: "500px" }}>
+              <img src={building1} alt="building1" style={{ width: "100%" }} />
+            </MDBCol>
+          </MDBRow>
+        </MDBCarouselItem>
+        <MDBCarouselItem>
+          <MDBRow className="d-flex justify-content-center">
+            <MDBCol md="10" style={{ maxWidth: "500px" }}>
+              <img src={building2} alt="building2" style={{ width: "100%" }} />
+            </MDBCol>
+          </MDBRow>
+        </MDBCarouselItem>
+        <MDBCarouselItem>
+          <MDBRow className="d-flex justify-content-center">
+            <MDBCol md="10" style={{ maxWidth: "500px" }}>
+              <img src={building3} alt="building3" style={{ width: "100%" }} />
+            </MDBCol>
+          </MDBRow>
+        </MDBCarouselItem>
+        <MDBCarouselItem>
+          <MDBRow className="d-flex justify-content-center">
+            <MDBCol md="10" style={{ maxWidth: "500px" }}>
+              <img src={building4} alt="building4" style={{ width: "100%" }} />
+            </MDBCol>
+          </MDBRow>
+        </MDBCarouselItem>
       </MDBCarousel>
-      </MDBCol>
-    </MDBRow>
-        </MDBContainer>
+    </MDBCol>
+  </MDBRow>
+</MDBContainer>
+
     </div>
   );
 };

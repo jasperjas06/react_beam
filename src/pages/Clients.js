@@ -47,7 +47,7 @@ const Clients = () => {
       </div>
       <div className='cta-container'>
       <div className='cta-header'>
-      <p>CTA Section</p>
+      <p>Get in Touch</p>
       </div>
       <p className='cta-content'>Ready to start your next construction project with BeamTech? Contact us today for a free consultation and quote. Our team is eager to bring your vision to life</p>
       <div className="flex justify-center py-6 relative z-10">

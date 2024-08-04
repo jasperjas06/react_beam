@@ -1,4 +1,5 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+  
   .first img {
     display: none;
   }
@@ -58,7 +59,7 @@
         height: auto;
       }
       .scroll-container {
-        height: 400vh;
+        height: 100vh !important;
         position: relative;
         margin-top: 40px;
         top: 10%;
@@ -273,14 +274,30 @@
 
 @media screen and (max-width: 1024px) {
   .scroll-container {
-      height: 800vh !important;
+      /* height: 800vh !important; */
+  }
+}
+@media screen and (max-width: 361px) {
+  .first h2 {
+      /* height: 800vh !important; */
+      font-size: 40px !important;
+  }
+  .third h2 {
+      /* height: 800vh !important; */
+      font-size: 40px !important;
+  }
+  .scroll-container{
+    height: 300vh !important;
+  }
+  .first{
+    left: -20px !important;
   }
 }
 
 @media screen and (max-width: 1280px) {
-  .scroll-container{
+  /* .scroll-container{
     height: 650vh !important;
-  } 
+  }  */
 }
 
 @media screen and(max-width: 425px) {

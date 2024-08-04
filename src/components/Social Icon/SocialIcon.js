@@ -11,7 +11,7 @@ function SocialIcon({ icon, link }) {
             href={link}
             target='_blank' rel="noreferrer"
         >
-            <FontAwesomeIcon className='icon' icon={icon} />
+            <FontAwesomeIcon className='icon' icon={icon} style={{color:"hsla(209, 24%, 17%, 1)"}} />
         </a>
         </div>
         

@@ -4,6 +4,7 @@ import building2 from "../assets/images/p2.png";
 import building3 from "../assets/images/p3.png";
 import building4 from "../assets/images/p4.png";
 import NavBar from "../nav/NavBar";
+import { MDBContainer } from "mdb-react-ui-kit";
 
 const imageUrls = [building1, building2, building3, building4];
 const Work = ({ open }) => {
@@ -15,17 +16,23 @@ const Work = ({ open }) => {
   return (
     <div>
       {open && <NavBar />}
+      <h1
+            className="project-title"
+            style={{ fontSize: "60px", fontWeight: "700", marginLeft:"40px"}}
+          >
+            Our Projects
+          </h1>
+          <br/>
+          <MDBContainer>
+          <p>Our projects include innovative, sustainable residential homes and advanced commercial buildings with cutting-edge technology. We also specialize in eco-friendly industrial projects, such as state-of-the-art manufacturing plants and efficient logistics hubs</p>
+          </MDBContainer>
+          <br/>
       <div className="project" style={{ backgroundImage: `url(${bgImage})` }}>
         {/* className="pt-14 px-14 text-black" */}
         <div className="pt-14 px-5 md:px-14 text-black" style={{width:"50%"}}>
           {/* className="text-6xl font-bold"font-size: 60px;
   font-weight: 700; */}
-          <h1
-            className="project-title"
-            style={{ fontSize: "60px", fontWeight: "700" }}
-          >
-            Our Projects
-          </h1>
+         
           {/* className="pt-10 max-w-lg text-2xl" */}
           {/* <p
             className="project-line "

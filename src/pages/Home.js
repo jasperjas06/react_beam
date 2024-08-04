@@ -14,6 +14,7 @@ import Clients from './Clients'
 import Faqs from './Faqs'
 import Contact from './Contact'
 import Footer from '../Footer/Footer'
+import ScrollToTopButton from '../components/GoTop'
 const Home = ({setOpen,open}) => {
   return (
     <div className="main-layout">
@@ -33,6 +34,7 @@ const Home = ({setOpen,open}) => {
       <MDBContainer>
         <Process />
       </MDBContainer>
+      <br/>
       <div>
         <Work/>
       </div>
@@ -49,11 +51,11 @@ const Home = ({setOpen,open}) => {
         <Contact/>
       </div>
       <br/>
-      <div className='construct-img'>
+      {/* <div className='construct-img'>
         <img src={require("../assets/images/newBulding.jpg")} alt='construct' />
-        {/* <img src={require("../assets/images/engineering-construction.png")} alt='construct' /> */}
-      </div>
+      </div> */}
       <Footer />
+      <ScrollToTopButton/>
     </div>
   )
 }

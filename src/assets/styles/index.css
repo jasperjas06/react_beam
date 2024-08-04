@@ -5,7 +5,7 @@ html, body {
 }
 
 .scroll-container {
-  height: 800vh;
+  height: 600vh;
   position: relative;
   margin-top: 40px;
   top: 10%;
@@ -61,6 +61,7 @@ html, body {
   gap: 0px;
 }
 .scroll-container .third h2 {
+  /* font-family: Outfit  ; */
   font-size: 60px;
   font-weight: 700;
   line-height: 75.6px;
@@ -356,15 +357,15 @@ html, body {
 
 .faq-question {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding: 20px;
-  gap: 0px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: initial;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    gap: 0px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
 }
 
 .faq-question-container{
@@ -386,11 +387,11 @@ html, body {
 }
 .faq-question-item-header {
   height: 77px;
-  /* width: auto; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    /* width: auto; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
 }
 .faq-question-item-header p {
   /* font-family: Outfit; */

@@ -1,0 +1,44 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+  }
+  
+  .scroll-button {
+    background-color: #9f9f9f;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 24px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+  }
+  
+  .scroll-button:active {
+    transform: translateY(-2px);
+  }
+  
+  .scroll-icon {
+    font-size: 15px;
+  }
+  
+  .scroll-button-fade {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .scroll-button-fade-in {
+    opacity: 1;
+  }
+  
