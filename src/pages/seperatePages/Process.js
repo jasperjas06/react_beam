@@ -64,8 +64,7 @@ export default function Process({open,sepratePage=true}) {
                 <div className="flex justify-center">
                     {/* className="w-2/3 pt-16 text-2xl text-center" */}
                     <p className="w-full md:w-2/3 pt-8 md:pt-16 text-lg md:text-2xl text-justify">
-                    At BeamTech Pvt Ltd, we simplify the construction process into clear and manageable steps. From initial consultation and design to project management and final inspection, we ensure every phase is meticulously planned and executed. Our team of experts collaborates closely with clients to understand their vision, providing transparent updates and maintaining the highest standards of quality and safety. Whether you're building a new structure or renovating an existing one, we are committed to delivering exceptional results on time and within budget.
-                    </p>
+                    At our company, building your dream home is straightforward. We start with a detailed planning phase, ensuring all your needs are met. Then, our expert builders bring your vision to life with high-quality construction. You can track the progress in real-time, staying informed every step of the way. Finally, we ensure everything is perfect before you settle into your new home. </p>
                 </div>
             </section>
             </MDBContainer>

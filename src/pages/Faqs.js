@@ -48,7 +48,8 @@ const Faqs = () => {
       <div className='faq-header'>
         <p>FAQs</p>
         <div className='faq-content'>
-            <p>Your questions - answered! Find the information you need below!</p>
+            <p>Here, our team is dedicated to solving your doubts and problems.  
+            We ensure efficient and effective solutions tailored to your needs</p>
         </div>
       </div>
       <div className='faq-question'>
