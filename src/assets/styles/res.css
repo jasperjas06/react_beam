@@ -312,6 +312,7 @@
   .scroll-container {
     height: 200vh !important;
   }
+  
 }
 
 @media screen and (max-width: 1072px) {
@@ -321,4 +322,8 @@
   .small-img{
     top: 0;
 }
+}
+
+@media screen and (max-width:375px), (max-height:667px)  {
+  
 }
