@@ -74,6 +74,7 @@
         margin-left: 40px;
       }
       .about-image {
+        display: none;
         height: 150px;
         width: 70%;
         position: fixed;
@@ -272,11 +273,9 @@
   
 }
 
-@media screen and (max-width: 1024px) {
-  .scroll-container {
-      /* height: 800vh !important; */
-  }
-}
+/* @media screen and (max-width: 768px) {
+
+} */
 @media screen and (max-width: 821px) {
   .service-grid {
       grid-template-columns: auto;
@@ -321,5 +320,5 @@
   }
   .small-img{
     top: 0;
-  }
+}
 }

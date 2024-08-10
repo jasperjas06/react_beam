@@ -15,7 +15,7 @@ function App() {
     //   <NavBar/>
     // </div>
     <>
-      <BrowserRouter>
+      <BrowserRouter >
       <Routes>
         <Route path='/' element={<Home setOpen={setOpen} open={open} />} />
         <Route path='/about' element={<About setOpen={setOpen} open={open} />} />
