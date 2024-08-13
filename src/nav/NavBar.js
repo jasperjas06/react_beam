@@ -35,7 +35,7 @@ export default function NavBar() {
           <MDBNavbarNav className="forNewNav mr-auto mb-2 mb-lg-0" >
           
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" href="/about">
+              <MDBNavbarLink  aria-current="page" href="/about">
                 About
               </MDBNavbarLink>
             </MDBNavbarItem>
