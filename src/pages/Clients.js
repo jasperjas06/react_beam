@@ -36,7 +36,7 @@ const Clients = () => {
       <br/>
       <div className='client-says' >
       <center >
-        <h2>What Our Clients Say</h2>
+        <h2 style={{fontWeight:300}}>What Our Clients Say</h2>
       </center>
       <br/>
     <MDBContainer>

@@ -6,7 +6,7 @@ const Cultuer = () => {
       <div className="culture-box">
             <h1
               style={{
-                fontWeight: 700,
+                fontWeight: 300,
                 fontSize: "60px",
                 lineweight: "75.6px",
                 letterSpacing: "-2%",

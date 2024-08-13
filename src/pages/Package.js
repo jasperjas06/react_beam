@@ -19,7 +19,7 @@ const Package = ({open}) => {
       {
         open ? (
           <MDBContainer style={{marginTop:"20px"}}>
-          <h2 className="text-4xl md:text-4xl lg:text-5xl font-bold" style={{fontWeight:"bold"}}>
+          <h2 className="text-4xl md:text-4xl lg:text-5xl font-bold" style={{fontWeight:"300"}}>
         Our Packages
       </h2>
           <div className="package-container">
@@ -87,7 +87,7 @@ const Package = ({open}) => {
       </div>
       </MDBContainer>):(
           <>
-          <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold">
+          <h1 className="text-4xl md:text-4xl lg:text-5xl " style={{fontWeight:"300"}}>
         Our Packages
       </h1>
           <div className="package-container">

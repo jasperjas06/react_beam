@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <>
       <div className='service-box' style={{marginLeft:"40px"}}>
-        <h1 variant='h4' style={{ fontWeight: 700, fontSize: "60px", letterSpacing: "-2%", lineHeight: "75.6px", color: "#222D37" }} className='service-title' >Our Services</h1>
+        <h1 variant='h4' style={{ fontWeight: 300, fontSize: "60px", letterSpacing: "-2%", lineHeight: "75.6px", color: "#222D37" }} className='service-title' >Our Services</h1>
       </div>
       <br/>
     <MDBContainer>

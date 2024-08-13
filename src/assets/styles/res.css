@@ -132,14 +132,14 @@
         gap: 0px;
         font-family: Source Sans Pro;
         font-size: 30px;
-        font-weight: 700;
+        font-weight: 300;
         line-height: 50.28px;
         text-align: center;
         color: rgba(203, 33, 57, 1);
       }
       .counter-lable {
         font-size: 1rem;
-        font-weight: 700;
+        font-weight: 300;
         padding-top: 20px;
         color: rgba(203, 33, 57, 1);
       }

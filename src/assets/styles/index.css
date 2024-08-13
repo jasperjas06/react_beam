@@ -35,7 +35,7 @@ html, body {
 }
 .scroll-container .first h2 {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 75.6px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -63,7 +63,7 @@ html, body {
 .scroll-container .third h2 {
   /* font-family: Outfit  ; */
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 75.6px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -231,7 +231,7 @@ html, body {
 .our-clients p {
   /* font-family: Outfit; */
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 75.6px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -281,7 +281,7 @@ html, body {
 .cta-header p {
   /* font-family: Outfit; */
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 75.6px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -327,7 +327,7 @@ html, body {
 .faq-header {
   /* font-family: Outfit; */
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 75.6px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -396,7 +396,7 @@ html, body {
 .faq-question-item-header p {
   /* font-family: Outfit; */
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 28px;
   text-align: left;
 }
@@ -416,7 +416,7 @@ html, body {
 }
 .contact-title {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 75.6px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -551,7 +551,7 @@ background-position: center;
 }
 
 .project-line-span{
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .carousel-control-prev-icon::after , .carousel-control-next-icon::after {

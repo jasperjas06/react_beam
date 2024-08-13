@@ -6,7 +6,7 @@ const About = ({ setOpen, sepratePage = true }) => {
     <>
       {sepratePage && <NavBar setOpen={setOpen} />}
       <div className="About">
-        <h2 style={{ fontWeight: "bold" }}>About Us</h2>
+        <h2 style={{ fontWeight: "300" }}>About Us</h2>
         {/* <img src={home} alt=''/> */}
         <p>
           At BeamTech Pvt Ltd, we’re not just builders; we’re visionaries. As

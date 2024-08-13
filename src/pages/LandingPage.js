@@ -32,11 +32,11 @@ const LandingPage = () => {
           transform: `translateX(${firstDivPosition}px)`,
           // opacity: scrollPosition < window.innerHeight / 2 ? 1 : 0,
         }}>
-      <h2 style={{ fontWeight: "bold" }}>
+      <h2 style={{ fontWeight: "300" }}>
       BeamTech Pvt Ltd
         </h2>
         <img src={Home} alt=''/>
-        <h2 style={{ color: "red", fontWeight: "bold" }}>
+        <h2 style={{ color: "red", fontWeight: "300" }}>
         Innovating the Future<br/>
         of Construction
         </h2>

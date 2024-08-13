@@ -18,7 +18,7 @@ const Work = ({ open }) => {
       {open && <NavBar />}
       <MDBContainer><h1
             className="project-title"
-            style={{ fontSize: "60px", fontWeight: "700", }}
+            style={{ fontSize: "60px", fontWeight: "300", }}
           >
             Our Projects
           </h1></MDBContainer>

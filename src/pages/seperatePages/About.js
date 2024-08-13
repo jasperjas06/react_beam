@@ -9,7 +9,7 @@ const About = ({ setOpen, sepratePage = true }) => {
       <NavBar setOpen={setOpen} />
       <MDBContainer>
         <div className="About">
-          <h2 style={{ fontWeight: "bold" }}>Welcome to BeamTech Pvt Ltd</h2>
+          <h2 style={{ fontWeight: "300" }}>Welcome to BeamTech Pvt Ltd</h2>
           {/* <img src={home} alt=''/> */}
           <p>
           Where innovation meets construction. As South India’s first tech-enabled civil construction company, we are dedicated to delivering high-quality, efficient, and sustainable solutions for residential, commercial, and industrial projects.

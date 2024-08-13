@@ -34,7 +34,7 @@ export default function Process({open,sepratePage=true}) {
                 {/* className="text-5xl" */}
                 <div className="text-3xl md:text-5xl">
                     {/* className="py-3 font-bold" */}
-                    <h1 className="py-2 md:py-3 font-bold" style={{fontSize:"60px", fontWeight:"600", lineHeight:"75.6px", letterSpacing:"-2%"}}>How it
+                    <h1 className="py-2 md:py-3 font-bold" style={{fontSize:"60px", fontWeight:"300", lineHeight:"75.6px", letterSpacing:"-2%"}}>How it
                         <span style={{ color: '#cb2139' }}> Works?</span>
                     </h1>
                 </div>

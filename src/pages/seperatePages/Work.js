@@ -19,10 +19,10 @@ const Work = ({ open }) => {
       <div className="project2">
         <MDBContainer>
           <div style={{ marginTop: "20px" }}>
-            <h2 style={{ fontWeight: "bold" }}>Our Recent Work</h2>
+            <h2 style={{ fontWeight: "300" }}>Our Recent Work</h2>
             <br/>
             <div>
-            <h4>Residential Homes</h4>
+            <h5>Residential Homes</h5>
               <ul
                 style={{
                   listStyle: "disc",
@@ -47,7 +47,7 @@ const Work = ({ open }) => {
               </ul>
             </div>
             <div>
-            <h4>Commercial Buildings</h4>
+            <h5>Commercial Buildings</h5>
               <ul
                 style={{
                   listStyle: "disc",
