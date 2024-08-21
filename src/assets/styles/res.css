@@ -361,3 +361,10 @@
     height: 720vh;
   }
 }
+@media screen and (max-width:912px) {
+  .service-grid{
+    grid-template-columns: auto !important;
+    margin-bottom: 10px;
+  }
+  
+}
