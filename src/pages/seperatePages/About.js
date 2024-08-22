@@ -20,13 +20,13 @@ const About = ({ setOpen, sepratePage = true }) => {
           <p>
           At BeamTech Pvt Ltd, we are not just building structures; we are building dreams. We understand that every project is unique, and we tailor our services to meet the specific needs and vision of each client. Our commitment to quality and innovation ensures that our buildings stand the test of time, providing a safe and inspiring environment for generations to come.</p>
           <p>Join us at BeamTech Pvt Ltd, and experience the future of construction today. Together, we can create a legacy of excellence, sustainability, and innovation that will shape the landscape of South India for years to come.</p>
-          <div>
+          {/* <div>
             <img
               className="about-image"
               src={require("../../assets/images/trally.png")}
               alt="img"
             />
-          </div>
+          </div> */}
         </div>
       </MDBContainer>
     </>

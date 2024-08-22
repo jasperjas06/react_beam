@@ -51,6 +51,8 @@ const Home = ({setOpen,open}) => {
         <Contact/>
       </div>
       <br/>
+      <br/>
+      <br/>
       {/* <div className='construct-img'>
         <img src={require("../assets/images/newBulding.jpg")} alt='construct' />
       </div> */}
