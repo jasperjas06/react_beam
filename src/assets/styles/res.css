@@ -424,7 +424,7 @@
   .scroll-container .first h2 {
     position: relative;
     left: -20;
-    top: 20%;
+    top: 34% !important;
   }
 }
 
