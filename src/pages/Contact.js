@@ -11,7 +11,7 @@ import { MDBContainer } from "mdb-react-ui-kit";
 export default function Contact({open,sepratePage=true}) {
     const [formData, setFormData] = useState({
         fullName: '',
-        email: '',
+        mobile: '7904138012',
         message: '',
     });
 
@@ -19,7 +19,8 @@ export default function Contact({open,sepratePage=true}) {
 
     const [errors, setErrors] = useState({
         fullName: '',
-        email: '',
+        mobile: '',
+        message: ""
     });
 
     const handleChange = (e) => {
@@ -34,12 +35,13 @@ export default function Contact({open,sepratePage=true}) {
 
         const newErrors = {
             fullName: '',
-            email: '',
+            mobile: '',
+            message:""
         }
 
         const messageTemplate = ` Hello,
         Name: ${formData.fullName}
-        Email: ${formData.email}
+        mobile: ${formData.mobile}
         Message:
         ${formData.message}`;
 
@@ -50,11 +52,13 @@ export default function Contact({open,sepratePage=true}) {
             valid = false;
         }
 
-        if (!formData.email.trim()) {
-            newErrors.email = 'Email is required';
+        if (!formData.message.trim()) {
+            newErrors.message = 'Message is required';
             valid = false;
-        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-            newErrors.email = 'Email is invalid';
+        }
+
+        if (!formData.mobile.trim()) {
+            newErrors.mobile = 'mobile number is required';
             valid = false;
         }
 
@@ -63,13 +67,21 @@ export default function Contact({open,sepratePage=true}) {
             return;
         }
 
-        const encodeMessageTemplate = encodeURIComponent(messageTemplate);
-        const whatsappURL = ``;
-        window.open(whatsappURL, '_blank');
+        let number = formData.mobile.replace(/[^\w\s]/gi, "").replace(/ /g, "");
+        const message = encodeURIComponent("Hi i'm "+formData.fullName +", "+formData.message);
+        // Appending the phone number to the URL
+        let url = `https://wa.me/${formData.mobile}?text=${message}`;
+
+        // Appending the message to the URL by encoding it
+        // url += `&text=${encodeURI(formData.message)}&app_absent=0`;
+
+        // Open our newly created URL in a new tab to send the message
+        window.open(url);
+
 
         setFormData({
             fullName: '',
-            email: '',
+            mobile: '',
             message: '',
         });
     }
@@ -135,16 +147,17 @@ export default function Contact({open,sepratePage=true}) {
                             </div>
 
                             <div className="mb-4">
-                                <label className="block mb-2 text-sm md:text-lg text-black">Email</label>
+                                <label className="block mb-2 text-sm md:text-lg text-black">Mobile Number</label>
                                 <input
-                                    type="email"
-                                    name="email"
-                                    value={formData.email}
+                                    type="number"
+                                    name="mobile"
+                                    disabled
+                                    value={formData.mobile}
                                     onChange={handleChange}
                                     autoComplete="off"
                                     style={{width:'100%', padding:'2px',border:'black'}}
-                                    className={`w-full p-2 border border-black rounded ${errors.email ? 'border-red-500' : ''}`} />
-                                {errors.email && <p style={{color:"red"}} className="text-red-500 text-sm">{errors.email}</p>}
+                                    className={`w-full p-2 border border-black rounded ${errors.mobile ? 'border-red-500' : ''}`} />
+                                {errors.mobile && <p style={{color:"red"}} className="text-red-500 text-sm">{errors.mobile}</p>}
                             </div>
 
                             <div className="mb-4">
@@ -155,11 +168,13 @@ export default function Contact({open,sepratePage=true}) {
                                     value={formData.message}
                                     onChange={handleChange}
                                     className="w-full p-2 border border-black rounded resize-none" />
+                                {errors.message && <p style={{color:"red"}} className="text-red-500 text-sm">{errors.message}</p>}
                             </div>
 
                             <div className="">
                                 <button
                                     type="submit"
+
                                     // className="cursor-pointer px-4 py-2 text-white submit-btn">
                                     style={{background:"#cb2139",cursor:'pointer'}}
                                     className="cursor-pointer px-4 py-2 text-white bg-[#cb2139] hover:bg-[#a21c32] transition-colors rounded">

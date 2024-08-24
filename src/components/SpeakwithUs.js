@@ -44,14 +44,15 @@ const SpeakwithUs = ({open,setOpen}) => {
                     </button>
                 </div> */}
                 <div style={{display:"flex", justifyContent:"center", position:"relative", zIndex:10,}} className="flex justify-center py-6 relative z-10">
-                    <Link
+                    <a
+                        href='https://wa.me/7904138012'
                         // to="/package"
                         // state={{ packageDetails }}
                         style={{borderRadius:20,textDecoration:"none"}}
                         className="cursor-pointer px-4 py-2 text-white submit-btn rounded-full text-lg"
                     >
                         <span className="flex items-center">Get a Slot <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></span>
-                    </Link>
+                    </a>
                 </div>
               </div>
               <div className='swuComWra'>
@@ -62,14 +63,13 @@ const SpeakwithUs = ({open,setOpen}) => {
                 </div>
                 <p className='swuComWraText'>Let's cut to the chase. Our business team is a text away!</p>
                 <div style={{display:"flex", justifyContent:"center", position:"relative", zIndex:10,}} className="flex justify-center py-6 relative z-10">
-                    <Link
-                        // to="/package"
-                        // state={{ packageDetails }}
+                    <a
+                        href='https://wa.me/7904138012'
                         style={{borderRadius:20,textDecoration:"none"}}
                         className="cursor-pointer px-4 py-2 text-white submit-btn rounded-full text-lg"
                     >
                         <span className="flex items-center">Chat Now <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></span>
-                    </Link>
+                    </a>
                 </div>
               </div>
             </div>

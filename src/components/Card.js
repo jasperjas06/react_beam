@@ -5,7 +5,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Building from "../assets/images/building-1.jpg";
 import Icon from "../assets/images/icon.png";
 import "../components/styles.css"
-export default function Card({ hoverText, packageDetails }) {
+export default function Card({ hoverText, packageDetails, fileLink, name }) {
     return (
         <>
             <div className="clipped-container p-2 ">
@@ -21,14 +21,17 @@ export default function Card({ hoverText, packageDetails }) {
                     <p className="text-white text-center relative top-28 text-4xl font-semibold">{hoverText}</p>
                 </div>
                 <div style={{display:"flex", justifyContent:"center", position:"relative", zIndex:10,}} className="flex justify-center py-6 relative z-10">
-                    <Link
+                    <a
+                        href={fileLink}
                         // to="/package"
-                        state={{ packageDetails }}
+                        // to = {fileLink}
+                        download={name + " package details"}
+                        // state={{ packageDetails }}
                         style={{borderRadius:20,textDecoration:"none"}}
                         className="cursor-pointer px-4 py-2 text-white submit-btn rounded-full text-lg"
                     >
                         <span className="flex items-center">Learn more <FontAwesomeIcon icon={faArrowRight} className="ms-2" /></span>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </>
