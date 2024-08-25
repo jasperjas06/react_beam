@@ -33,7 +33,7 @@ const LandingPage = () => {
         className="scroll-content first"
         style={{
           transform: `translateX(${firstDivPosition}px)`,
-          
+          width : "90vw !important"
           // opacity: scrollPosition < window.innerHeight / 2 ? 1 : 0,
         }}
       >
@@ -66,7 +66,10 @@ const LandingPage = () => {
 
       <div
         className="scroll-content third"
-        style={{ transform: `translateX(${scrollPosition / 1.5}px)` }}
+        style={{ transform: `translateX(${scrollPosition / 1.5}px)`,
+          padding:"0 40px",
+          width:"auto"
+        }}
       >
         <h2 style={{ color: "red", fontWeight: "600" }}>Welcome to BeamTech Pvt Ltd</h2>
         <p>
