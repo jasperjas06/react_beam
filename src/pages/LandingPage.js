@@ -66,9 +66,7 @@ const LandingPage = () => {
 
       <div
         className="scroll-content third"
-        style={{ transform: `translateX(${scrollPosition / 1.5}px)`,
-          padding:"0 40px",
-          width:"auto"
+        style={{ transform: `translateX(${scrollPosition / 1.5}px)`
         }}
       >
         <h2 style={{ color: "red", fontWeight: "600" }}>Welcome to BeamTech Pvt Ltd</h2>
@@ -101,6 +99,9 @@ const LandingPage = () => {
             <h4 className='counter-lable'>Quality Checks</h4>
           </div>
         </div> */}
+      </div>
+      <div style={{height:"100px"}}>
+
       </div>
     </div>
   );

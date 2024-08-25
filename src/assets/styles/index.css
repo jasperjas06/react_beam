@@ -19,7 +19,7 @@ html, body {
   transform: translateX(0);
   transition: transform 0.1s linear;
   margin-left: 0px;
-  background-color: #ffffff85;
+  /* background-color: #ffffff85; */
 }
 .first {
   left: -20;
@@ -586,13 +586,13 @@ background-position: center;
 }
 
 .backgroundImgLand1{
-  background: url("../images/building-1.avif"), url("../images/building-2.avif"), url("../images/building-3.avif"), url("../images/building-1.jpg"), url("../images/building-4.jpeg");
+  background: url("../images//whitebg.avif"), url("../images//whitebg.avif"), url("../images//whitebg.avif"), url("../images//whitebg.avif"), url("../images/construction-workers-sunset1.jpg");
   /* background-repeat:  no-repeat, no-repeat, no-repeat, no-repeat ;
   background-size: contain, contain, contain, contain, contain, contain ; */
 
   /* background-image: url('image1.j  pg'), url('image2.jpg'), url('image3.jpg'), url('image4.jpg'), url('image5.jpg'); */
     background-position: top center, center center, center center, center center, bottom center;
-    background-size: 100% 40%, 100% 40%, 100% 40%, 100% 40%, 100% 40%;
+    background-size: 100% 40%, 100% 40%, 100% 40%, 100% 91%, 100% 9%;
     background-repeat: no-repeat;
 
   /* width: 100%; */
