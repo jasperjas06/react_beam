@@ -19,7 +19,7 @@ html, body {
   transform: translateX(0);
   transition: transform 0.1s linear;
   margin-left: 0px;
-  /* background-color: #ffffff85; */
+  background-color: #ffffff85;
 }
 .first {
   left: -20;
@@ -592,7 +592,7 @@ background-position: center;
 
   /* background-image: url('image1.j  pg'), url('image2.jpg'), url('image3.jpg'), url('image4.jpg'), url('image5.jpg'); */
     background-position: top center, center center, center center, center center, bottom center;
-    background-size: 100% 40%, 100% 40%, 100% 40%, 100% 91%, 100% 9%;
+    background-size: 100% 40%, 100% 40%, 100% 40%, 100% 80%, 100% 20%;
     background-repeat: no-repeat;
 
   /* width: 100%; */
