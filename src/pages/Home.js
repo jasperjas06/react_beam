@@ -19,7 +19,7 @@ const Home = ({setOpen,open}) => {
   return (
     <div className="main-layout">
       <NavBar />
-      <div >
+      <div  className='mn' >
         <LandingPage />
       </div>
       <div>
