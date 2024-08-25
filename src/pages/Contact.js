@@ -57,10 +57,10 @@ export default function Contact({open,sepratePage=true}) {
             valid = false;
         }
 
-        if (!formData.mobile.trim()) {
-            newErrors.mobile = 'mobile number is required';
-            valid = false;
-        }
+        // if (!formData.mobile.trim()) {
+        //     newErrors.mobile = 'mobile number is required';
+        //     valid = false;
+        // }
 
         if (!valid) {
             setErrors(newErrors);
@@ -146,7 +146,7 @@ export default function Contact({open,sepratePage=true}) {
                                 {errors.fullName && <p style={{color:"red"}} className="text-red-500 text-sm">{errors.fullName}</p>}
                             </div>
 
-                            <div className="mb-4">
+                            {/* <div className="mb-4">
                                 <label className="block mb-2 text-sm md:text-lg text-black">Mobile Number</label>
                                 <input
                                     type="number"
@@ -158,7 +158,7 @@ export default function Contact({open,sepratePage=true}) {
                                     style={{width:'100%', padding:'2px',border:'black'}}
                                     className={`w-full p-2 border border-black rounded ${errors.mobile ? 'border-red-500' : ''}`} />
                                 {errors.mobile && <p style={{color:"red"}} className="text-red-500 text-sm">{errors.mobile}</p>}
-                            </div>
+                            </div> */}
 
                             <div className="mb-4">
                                 <label className="block mb-2 text-sm md:text-lg text-black">Message</label>
