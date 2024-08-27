@@ -86,14 +86,14 @@ import {
   MDBCard,
   MDBCardBody,
   MDBCol,
-  MDBContainer,
   MDBRow,
   MDBCarousel,
   MDBCarouselItem,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import men from '../assets/images/men.jpg'
 
-export default function App() {
+export default function Testimonials() {
   return (
     <MDBRow className="py-5 text-center">
       <MDBCol md="12">
@@ -137,7 +137,7 @@ export default function App() {
         </MDBCol>
       </MDBRow>
       </MDBCarouselItem>
-      <MDBCarouselItem >
+      <MDBCarouselItem>
       <MDBRow className="d-flex justify-content-center">
         <MDBCol md="10" style={{maxWidth:"500px"}}>
           <MDBCard>
@@ -149,7 +149,7 @@ export default function App() {
                 >
                   <div style={{display:"flex",alignItems:"center",gap:"5px"}}>
                   <img
-                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.webp"
+                    src={men}
                     className="rounded-circle img-fluid shadow-1 client-image"
                     alt="woman avatar"
                   />

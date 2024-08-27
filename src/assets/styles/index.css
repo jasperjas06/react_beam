@@ -586,9 +586,9 @@ background-position: center;
 }
 
 .backgroundImgLand1{
-  background: url("../images//whitebg.avif"), url("../images//whitebg.avif"), url("../images//whitebg.avif"), url("../images//whitebg.avif"), url("../images/construction-workers-sunset1.jpg");
-  /* background-repeat:  no-repeat, no-repeat, no-repeat, no-repeat ;
-  background-size: contain, contain, contain, contain, contain, contain ; */
+  background: url("../images/whitebg1.jpg"), url("../images/whitebg2.jpg"), url("../images/whitebg3.jpg"), url("../images/whitebg3.jpg"), url("../images/construction-workers-sunset1.jpg");
+  /* background-repeat:  no-repeat, no-repeat, no-repeat, no-repeat ; */
+  /* background-size: contain, contain, contain, contain, contain, contain ;  */
 
   /* background-image: url('image1.j  pg'), url('image2.jpg'), url('image3.jpg'), url('image4.jpg'), url('image5.jpg'); */
     background-position: top center, center center, center center, center center, bottom center;
