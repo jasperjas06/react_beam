@@ -19,7 +19,7 @@ html, body {
   transform: translateX(0);
   transition: transform 0.1s linear;
   margin-left: 0px;
-  /* background-color: #ffffff85; */
+  background-color: #ffffff85;
 }
 .first {
   left: -20;
@@ -45,14 +45,14 @@ html, body {
   width: 463px;
   height: 226px;
   position: fixed;
-  top: 70%;
+  top: 60%;
   left: 0;
   transform: translateX(-50%);
   transition: transform 0.1s linear;
   margin-left: 40px;
 }
 .third {
-  left: -100%;
+  left: -130%;
   /* align-items: center;
   display: flex;
   flex-direction: column; */
