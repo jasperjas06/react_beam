@@ -70,12 +70,13 @@ const LandingPage = () => {
         }}
       >
         <h2 style={{ color: "red", fontWeight: "600" }}>Welcome to BeamTech Pvt Ltd</h2>
+        <h2 style={{ color: "red", fontWeight: "600" }}> Where Innovation Meets Construction</h2>
         <p>
-          Where innovation meets construction. As South India’s first
-          tech-enabled civil construction company, <br />
-          we are dedicated to delivering high-quality, efficient, and
-          sustainable solutions for residential, commercial, and industrial
-          projects.
+        As South India’s pioneering tech-enabled civil construction company,
+        we are committed to delivering high-quality, efficient, and 
+        sustainable solutions across residential, commercial, and industrial projects.
+        At BeamTech, we merge cutting-edge technology with deep industry expertise to revolutionize
+        the construction landscape, ensuring excellence in every project we undertake.
         </p>
         {/* <div className='counter-box'>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>

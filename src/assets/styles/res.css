@@ -99,7 +99,7 @@
       }
     
       .third {
-        left: -190%;
+        left: -190% !important;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -239,7 +239,7 @@
       gap: 0px;
     }
     .scroll-container {
-      height: 400vh !important;
+      height: 400vh ;
       position: relative;
       margin-top: 40px;
       top: 10%;
@@ -328,6 +328,20 @@
   .scroll-container {
     height: 350vh !important;
   }
+
+  .third {
+    top: 5%;
+    padding-top: 0px !important;
+  }
+
+  .third h2 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+
+  .third p {
+    font-size: 100% !important;
+  }
   
 }
 
@@ -347,14 +361,24 @@
   .scroll-container .first h2 {
     font-size: 40px !important;
   }
-  .third{
-    left: -259% !important;
-  }
+ 
 }
 
 @media screen and (max-width: 320px) {
   .scroll-container .first h2 {
     font-size: 40px !important;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .third{
+    left: -259% !important;
+    top: 5%;
+    padding-top: 0px !important;
+  }
+  .third h2 {
+    font-size: 30px !important;
+    line-height: 50px !important;
   }
   
 }
@@ -366,21 +390,18 @@
   }
 
   .scroll-container .first h2 {
-    font-size: 50px !important;
+    font-size: 50px ;
   }
 
   .scroll-image{
     width: 340px;
     height: 170px;
   }
-  .third{
-    left: -125% !important;
-  }
 }
 
 @media screen and (max-width: 1280px) and (max-height: 800px) {
   .scroll-container{
-    height: 700vh !important;
+    height: 700vh ;
   }
 }
 @media screen and (max-width:912px) {
@@ -405,9 +426,8 @@
     padding: 55px 48px 0px 42px;
     gap: 0px;
 }
+
 }
-
-
 
 /* mobile landscape */
 
@@ -437,3 +457,13 @@
   }
   
 }
+
+.third p {
+  font-size: 120%;
+}
+
+.third p {
+  font-size: 120%;
+  width: 80%;
+}
+
