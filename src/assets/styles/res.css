@@ -442,7 +442,7 @@
     height: 720vh;
   }
   .third {
-    left: -135% !important;
+    left: -200% !important;
     align-items: center;
     display: flex;
     flex-direction: column;
