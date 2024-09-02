@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Home from "../assets/images/home-img.svg";
+import Home from "../assets/images/home-g.png";
 const LandingPage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
