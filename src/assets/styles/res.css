@@ -249,7 +249,7 @@
 
 @media screen and (max-width: 1367px) {
   .scroll-container {
-    height: 600vh ;
+    /* height: 600vh ; */
     position: relative;
     margin-top: 40px;
     top: 10%;
@@ -267,7 +267,7 @@
   }
 
   .third {
-    left: -119%;
+    left: -138%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -281,7 +281,7 @@
 
 @media screen and (max-width: 800px) {
   .scroll-container {
-    height: 600vh;
+    /* height: 600vh; */
     position: relative;
     margin-top: 40px;
     top: 10%;
@@ -413,7 +413,7 @@
   
 }
 
-@media screen and (max-width: 1024px) and (max-height: 600px) {
+@media screen and (max-width: 1025px) and (max-height: 601px) {
   .scroll-container {
     height: 730vh !important;
     overflow-x: auto;
@@ -426,7 +426,12 @@
 
 @media screen and (max-width: 1280px) and (max-height: 800px) {
   .scroll-container{
-    height: 700vh ;
+    height: 630vh ;
+  }
+}
+@media screen and (max-width: 540px) and (max-height: 720px) {
+  .scroll-container{
+    height: 420vh !important;
   }
 }
 @media screen and (max-width:912px) {
@@ -439,7 +444,7 @@
 
 @media screen and (max-width: 1360px) and (max-height: 767px) {
   .scroll-container{
-    height: 720vh;
+    height: 680vh !important;
   }
   .third {
     left: -200% !important;
@@ -452,6 +457,12 @@
     gap: 0px;
 }
 
+}
+
+@media screen and (max-width : 1224px) and (max-height:600px) {
+  .scroll-container{
+    height: 800vh !important;
+  }
 }
 
 /* mobile landscape */
@@ -475,10 +486,10 @@
 
 @media screen and (max-width: 344px) {
   .scroll-container{
-    height: 450vh !important;
+    /* height: 450vh !important; */
   }
   .third{
-    left: -219% !important;
+    left: -269% !important;
   }
   
 }

@@ -28,7 +28,7 @@ const LandingPage = () => {
     : 0;
   // const thirdDivPosition = isSecondDivPastMiddle ? secondDivMiddle : scrollPosition;
   return (
-    <div className="scroll-container backgroundImgLand1" style={{margin:0}} >
+    <div className="scroll-container " style={{margin:0}} >
       <div
         className="scroll-content first"
         style={{
