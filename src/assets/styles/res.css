@@ -324,9 +324,15 @@
   }  */
 }
 
+@media screen and (max-width: 430px) and (max-height:932px) {
+  .scroll-container{
+    height: 650vh !important;
+  } 
+}
+
 @media screen and (max-width: 426px) {
   .scroll-container {
-    height: 350vh !important;
+    height: 320vh !important;
   }
 
   .third {
@@ -371,9 +377,9 @@
 }
 
 @media screen and (max-width:540px) {
-  .scroll-container {
+  /* .scroll-container {
     height: 350vh !important;
-  }
+  } */
   .scroll-container .first h2 {
     font-size: 40px !important;
   }
@@ -431,7 +437,7 @@
 }
 @media screen and (max-width: 540px) and (max-height: 720px) {
   .scroll-container{
-    height: 420vh !important;
+    height: 380vh !important;
   }
 }
 @media screen and (max-width:912px) {
@@ -464,6 +470,16 @@
     height: 800vh !important;
   }
 }
+@media screen and (max-width : 360px) and (max-height:640px) {
+  .scroll-container{
+    height: 300vh !important;
+  }
+}
+@media screen and (max-width : 375px) and (max-height:667px) {
+  .scroll-container{
+    height: 300vh !important;
+  }
+}
 
 /* mobile landscape */
 
@@ -486,7 +502,7 @@
 
 @media screen and (max-width: 344px) {
   .scroll-container{
-    /* height: 450vh !important; */
+    height: 280vh !important;
   }
   .third{
     left: -269% !important;
