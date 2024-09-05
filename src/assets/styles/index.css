@@ -5,7 +5,7 @@ html, body {
 }
 
 .scroll-container {
-  height: 700vh;
+  height: 800vh;
   position: relative;
   margin-top: 40px;
   top: 10%;
@@ -587,11 +587,11 @@ background-position: center;
 
 .backgroundImgLand1 {
   background: 
-    url("../images/whitebg1.jpg") no-repeat center top,
-    url("../images/whitebg2.jpg") no-repeat center top,
-    url("../images/whitebg3.png") no-repeat center top,
-    url("../images/whitebg4.jpg") no-repeat center top,
-    url("../images/whitebg5.jpg") no-repeat center top;
+  url("../images/citysky.png") no-repeat center top;
+  /* url("../images/whitebg4.jpg") no-repeat center top,
+  url("../images/tower.png") no-repeat center top,
+  url("../images/whitebg3.png") no-repeat center top,
+    url("../images/whitebg5.jpg") no-repeat center top; */
   background-size: 100% 20%, 100% 20%, 100% 20%, 100% 20%, 100% 20%;
   background-position: 0 0, 0 25%, 0 50%, 0 75%, 0 100%, 0 100%;
 }
@@ -599,12 +599,27 @@ background-position: center;
 @media screen and (max-width: 400px) {
   .backgroundImgLand1{
     background: 
-    url("../images/whitebg1.jpg") no-repeat center top,
+    /* url("../images/whitebg1.jpg") no-repeat center top,
     url("../images/whitebg2.jpg") no-repeat center top,
     url("../images/whitebg3.png") no-repeat center top,
     url("../images/whitebg4.jpg") no-repeat center top,
-    url("../images/whitebg5.jpg") no-repeat center top;
+    url("../images/tower.png") no-repeat center top,
+    url("../images/whitebg3.png") no-repeat center top,
+    url("../images/whitebg5.jpg") no-repeat center top; */
+    url("../images/citysky.png") no-repeat center top;
     background-size: 150% 20%, 150% 20%, 120% 20%, 150% 20%, 150% 20%;
     background-position: 0 0, 0 25%, 0 50%, 0 75%, 0 100%, 0 100%;
   }
+}
+
+.bg-img img{
+  width: 100%;
+  display:flex;
+  justify-content: last baseline;
+  /* position: absolute; */
+  /* height: fit-content;
+  width: 100%;
+  background-image: ("../images/whitebg5.jpg") no-repeat center top; 
+  background-size: 100% 20%, 100% 20%, 100% 20%, 100% 20%, 100% 20%;
+  background-position: 0 0, 0 25%, 0 50%, 0 75%, 0 100%, 0 100%; */
 }

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Home from "../assets/images/homeIMG.svg";
+import "../assets/styles/index.css"; // Add this for custom styles (adjust as needed)
+
 const LandingPage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -21,89 +23,63 @@ const LandingPage = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   const secondDivMiddle = windowHeight;
   const isSecondDivPastMiddle = scrollPosition >= secondDivMiddle;
   const firstDivPosition = isSecondDivPastMiddle
     ? scrollPosition - secondDivMiddle
     : 0;
-  // const thirdDivPosition = isSecondDivPastMiddle ? secondDivMiddle : scrollPosition;
+
   return (
-    <div className="scroll-container " style={{margin:0}} >
+    <div className="scroll-container" style={{ margin: 0 }}>
+      {/* First Section */}
       <div
         className="scroll-content first"
         style={{
           transform: `translateX(${firstDivPosition}px)`,
-          width : "90vw !important"
-          // opacity: scrollPosition < window.innerHeight / 2 ? 1 : 0,
         }}
       >
         <h2 style={{ fontWeight: "600" }}>BeamTech Pvt Ltd</h2>
-        <img src={Home} alt="" />
         <h2 style={{ color: "red", fontWeight: "400" }}>
           Innovating the Future
           <br />
           of Construction
         </h2>
-        {/* <p>
-          Step Into the Home You've Always dreamed
-        </p>
-        <p>
-          Of, Built Into The Highest Standard Of
-        </p>
-        <p>
-          Quality
-        </p> */}
       </div>
-      {/* image */}
-      <div>
+
+      {/* Image Section */}
+      <div className="scroll-image-container">
         <img
-          style={{ transform: `translateX(${scrollPosition / 3}px)` }}
+          style={{ transform: `translateX(${scrollPosition / 4}px)` }}
           className="scroll-image"
           src={require("../assets/images/trally.png")}
-          alt="img"
+          alt="Trally"
         />
       </div>
 
+      {/* Third Section */}
       <div
         className="scroll-content third"
-        style={{ transform: `translateX(${scrollPosition / 1.5}px)`
-        }}
+        style={{ transform: `translateX(${scrollPosition / 1.5}px)` }}
       >
-        <h2 style={{ color: "red", fontWeight: "600" }}>Welcome to BeamTech Pvt Ltd</h2>
-        <h2 style={{ color: "red", fontWeight: "600" }}> Where Innovation Meets Construction</h2>
+        <h2 style={{ color: "red", fontWeight: "600" }}>
+          Welcome to BeamTech Pvt Ltd
+        </h2>
+        <h2 style={{ color: "red", fontWeight: "600" }}>
+          Where Innovation Meets Construction
+        </h2>
         <p>
-        As South India’s pioneering tech-enabled civil construction company,
-        we are committed to delivering high-quality, efficient, and 
-        sustainable solutions across residential, commercial, and industrial projects.
-        At BeamTech, we merge cutting-edge technology with deep industry expertise to revolutionize
-        the construction landscape, ensuring excellence in every project we undertake.
+          As South India’s pioneering tech-enabled civil construction company,
+          we are committed to delivering high-quality, efficient, and
+          sustainable solutions across residential, commercial, and industrial
+          projects. At BeamTech, we merge cutting-edge technology with deep
+          industry expertise to revolutionize the construction landscape,
+          ensuring excellence in every project we undertake.
         </p>
-        {/* <div className='counter-box'>
-          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-            <div className='circle-counter'>
-              <center>
-                <p>45K+</p>
-              </center>
-              <br />
-              <br />
-            </div>
-            <h4 className='counter-lable'>Home</h4>
-          </div>
-          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-            <div className='circle-counter'>
-              <center>
-                <p>470+</p>
-              </center>
-              <br />
-              <br />
-            </div>
-            <h4 className='counter-lable'>Quality Checks</h4>
-          </div>
-        </div> */}
       </div>
-      <div style={{height:"100px"}}>
 
-      </div>
+      {/* Spacer to Ensure Scroll */}
+      <div style={{ height: "100px" }} />
     </div>
   );
 };

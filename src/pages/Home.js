@@ -15,6 +15,7 @@ import Faqs from './Faqs'
 import Contact from './Contact'
 import Footer from '../Footer/Footer'
 import ScrollToTopButton from '../components/GoTop'
+import Sky from "../assets/images/citysky.png"
 const Home = ({setOpen,open}) => {
   return (
     <div className="main-layout">
@@ -44,12 +45,19 @@ const Home = ({setOpen,open}) => {
       </div>
       <br/>
       <div>
+      <br/>
+      <br/>
+      <br/>
         <Faqs/>
       </div>
       <br/>
-      <div>
+      <div >
         <Contact/>
       </div>
+      {/* <div className='bg-img'>
+      <img src={Sky} />
+      </div> */}
+      
       <br/>
       <br/>
       <br/>
