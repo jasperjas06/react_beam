@@ -1,14 +1,25 @@
 import React, { useEffect, useState } from "react";
 import Home from "../assets/images/homeIMG.svg";
-import "../assets/styles/index.css"; // Add this for custom styles (adjust as needed)
+import "../assets/styles/index.css"; // Ensure custom styles are imported
 
 const LandingPage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+  const [isThirdDivVisible, setIsThirdDivVisible] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrollPosition(window.scrollY);
+      const scrollPos = window.scrollY;
+      setScrollPosition(scrollPos);
+
+      // Check if the third div is visible
+      const thirdDivTop = document.querySelector(".scroll-content.third")
+        ?.offsetTop;
+      if (thirdDivTop && scrollPos >= thirdDivTop - windowHeight / 2) {
+        setIsThirdDivVisible(true);
+      } else {
+        setIsThirdDivVisible(false);
+      }
     };
 
     const handleResize = () => {
@@ -22,7 +33,7 @@ const LandingPage = () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [windowHeight]);
 
   const secondDivMiddle = windowHeight;
   const isSecondDivPastMiddle = scrollPosition >= secondDivMiddle;
@@ -31,7 +42,12 @@ const LandingPage = () => {
     : 0;
 
   return (
-    <div className="scroll-container" style={{ margin: 0 }}>
+    <div
+      className={`scroll-container ${
+        isThirdDivVisible ? "background-hide" : ""
+      }`}
+      style={{ margin: 0 }}
+    >
       {/* First Section */}
       <div
         className="scroll-content first"

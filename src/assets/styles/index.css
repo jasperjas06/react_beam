@@ -623,3 +623,37 @@ background-position: center;
   background-size: 100% 20%, 100% 20%, 100% 20%, 100% 20%, 100% 20%;
   background-position: 0 0, 0 25%, 0 50%, 0 75%, 0 100%, 0 100%; */
 }
+
+/* Background Image */
+.scroll-container {
+  background-image: url('../images/citysky.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+/* Hide background when the third section is visible */
+.scroll-content.third {
+  /* background: white; */
+}
+
+/* Optional: Add some padding and styles to the third section */
+.scroll-content.third {
+  /* padding: 50px; */
+  /* background-color: white; */
+  transition: background-color 0.5s ease;
+}
+
+
+.scroll-image-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-image {
+  width: 80%;
+  max-width: 500px;
+}
